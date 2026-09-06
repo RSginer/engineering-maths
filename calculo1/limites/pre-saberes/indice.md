@@ -1,0 +1,127 @@
+# 🧮 Pre-saberes — Lo que necesitas dominar antes de Límites
+
+Antes de entender bien la teoría de límites hace falta tener soltura con una serie de conceptos previos. Aquí tienes el recorrido completo, de lo más básico a lo más cercano a límites.
+
+---
+
+## 1. [Aritmética y operaciones básicas](01-aritmetica.md)
+
+- **Fracciones:** sumar, restar, multiplicar, dividir, simplificar.
+- **Signos:** reglas de multiplicación/división de positivos y negativos (\(+\cdot+=+\), \(+\cdot-=-\), \(-\cdot-=+\)).
+- **Potencias:** \(a^n\), \(a^0=1\), \(a^{-n}=\dfrac{1}{a^n}\), \(a^{m/n}=\sqrt[n]{a^m}\).
+- **Raíces:** propiedades \(\sqrt{a\cdot b}=\sqrt{a}\cdot\sqrt{b}\), racionalización de denominadores.
+- **Jerarquía de operaciones:** paréntesis → potencias/raíces → multiplicación/división → suma/resta.
+
+Sin esto, cualquier manipulación algebraica posterior (necesaria para resolver indeterminaciones) se vuelve muy difícil.
+
+---
+
+## 2. [Álgebra básica](02-algebra.md)
+
+- **Expresiones algebraicas:** simplificar, agrupar términos semejantes.
+- **Ecuaciones de primer y segundo grado:** despejar \(x\), fórmula general \(x=\dfrac{-b\pm\sqrt{b^2-4ac}}{2a}\).
+- **Productos notables:**
+  - \((a+b)^2=a^2+2ab+b^2\)
+  - \((a-b)^2=a^2-2ab+b^2\)
+  - \((a+b)(a-b)=a^2-b^2\) ← clave para indeterminaciones \(0/0\)
+- **Factorización de polinomios:**
+  - Factor común
+  - Diferencia de cuadrados
+  - Trinomio de segundo grado
+  - Regla de Ruffini / división de polinomios (si \(x=a\) es raíz, entonces \((x-a)\) es un factor)
+
+Estas técnicas son **imprescindibles** para resolver la indeterminación \(0/0\) en límites (factorizar y simplificar).
+
+---
+
+## 3. [Racionalización](03-racionalizacion.md)
+
+- Multiplicar numerador y denominador por el **conjugado** cuando hay raíces:
+$$
+\frac{1}{\sqrt{x}-\sqrt{a}}\cdot\frac{\sqrt{x}+\sqrt{a}}{\sqrt{x}+\sqrt{a}}=\frac{\sqrt{x}+\sqrt{a}}{x-a}
+$$
+- Se usa para eliminar indeterminaciones \(0/0\) cuando aparecen raíces en el numerador o denominador.
+
+---
+
+## 4. [Funciones: concepto y tipos](04-funciones.md)
+
+- **Qué es una función:** relación que asocia a cada \(x\) del dominio un único valor \(f(x)\).
+- **Dominio y recorrido:** valores de \(x\) donde la función está definida (ojo con denominadores que se anulan y raíces de índice par con radicando negativo).
+- **Gráficas de funciones básicas:**
+  - Función lineal \(f(x)=mx+n\)
+  - Función cuadrática \(f(x)=ax^2+bx+c\) (parábola)
+  - Función racional \(f(x)=\dfrac{P(x)}{Q(x)}\)
+  - Función raíz \(f(x)=\sqrt{x}\)
+- **Funciones racionales:** entender que se anulan (no existen) cuando el denominador es 0 — esto es la base de las asíntotas verticales.
+
+---
+
+## 5. [Grado de un polinomio](05-grado-polinomio.md)
+
+- Identificar el **grado** de un polinomio (el mayor exponente).
+- Saber comparar el grado del numerador y denominador en una fracción de polinomios — fundamental para límites en el infinito.
+- **Coeficiente principal:** el que acompaña al término de mayor grado.
+
+---
+
+## 6. [Signo de una función / estudio de signos](06-estudio-signos.md)
+
+- Saber determinar si una expresión es positiva o negativa en un intervalo (por ejemplo, sustituyendo un valor de prueba).
+- Esto es clave para saber si un límite infinito es \(+\infty\) o \(-\infty\) según el signo del numerador y del denominador.
+
+---
+
+## 7. [Trigonometría básica](07-trigonometria.md)
+
+- **Círculo unidad**, seno, coseno y tangente: \(\tan x=\dfrac{\sin x}{\cos x}\).
+- Valores de \(\sin\), \(\cos\) y \(\tan\) en ángulos notables (\(0\), \(\pi/6\), \(\pi/4\), \(\pi/3\), \(\pi/2\)).
+- Signo de \(\sin x\) y \(\cos x\) según el cuadrante.
+- Dónde se anula \(\cos x\) (en \(\pi/2+k\pi\)) — importante para entender las asíntotas de la tangente.
+
+---
+
+## 8. [Concepto de infinito y de "acercarse a"](08-infinito-acercarse.md)
+
+- Entender \(\infty\) no como un número, sino como una idea de **crecimiento sin límite**.
+- Entender qué significa que \(x\) "se acerque" a un valor \(a\) sin llegar a serlo (idea intuitiva de proximidad).
+- Saber interpretar \(\dfrac{1}{0^+} \to +\infty\) y \(\dfrac{1}{0^-}\to-\infty\) (número finito dividido entre algo que se acerca a 0).
+
+---
+
+## 9. [Continuidad (idea intuitiva)](09-continuidad.md)
+
+- Una función es continua en un punto si se puede dibujar sin levantar el lápiz.
+- Los polinomios son siempre continuos.
+- Las funciones racionales son continuas excepto donde se anula el denominador.
+- Esto ayuda a saber cuándo se puede sustituir directamente (Ejercicio 1) y cuándo no.
+
+---
+
+## 10. [Notación que debes reconocer](10-notacion.md)
+
+| Notación | Significado |
+|---|---|
+| \(\lim_{x\to a}f(x)\) | Límite de \(f\) cuando \(x\) tiende a \(a\) |
+| \(x\to a^-\) | \(x\) se acerca a \(a\) por la izquierda (valores menores) |
+| \(x\to a^+\) | \(x\) se acerca a \(a\) por la derecha (valores mayores) |
+| \(x\to+\infty\) | \(x\) crece sin límite |
+| \(f(a)\) | Valor de la función en \(x=a\) (puede no existir) |
+| \(0/0\), \(\infty/\infty\) | Indeterminaciones |
+
+---
+
+## ✅ Checklist antes de empezar límites
+
+- [ ] Sé operar con fracciones, potencias y raíces.
+- [ ] Sé resolver ecuaciones de primer y segundo grado.
+- [ ] Sé aplicar productos notables y factorizar polinomios.
+- [ ] Sé racionalizar expresiones con raíces.
+- [ ] Sé identificar el grado y coeficiente principal de un polinomio.
+- [ ] Sé estudiar el signo de una expresión en un punto.
+- [ ] Conozco las funciones básicas (lineal, cuadrática, racional) y sus gráficas.
+- [ ] Conozco seno, coseno, tangente y sus signos por cuadrante.
+- [ ] Entiendo la idea intuitiva de infinito y de "acercarse a un valor".
+- [ ] Entiendo qué es la continuidad de una función.
+
+Si todos estos puntos están claros, la teoría de [teoria-limites.md](calculo1/limites/teoria-limites.md) se entiende con mucha más facilidad.
