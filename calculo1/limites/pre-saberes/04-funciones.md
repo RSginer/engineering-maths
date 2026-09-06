@@ -86,7 +86,7 @@ $$
 f(x)=\frac{P(x)}{Q(x)}
 $$
 
-Es una fracción donde arriba y abajo hay polinomios. Su característica más importante para nosotros: **no existe donde el denominador ($Q(x)$) se hace 0**. Ahí es donde suelen aparecer las asíntotas verticales.
+Es una fracción donde arriba y abajo hay polinomios. Su característica más importante para nosotros: **no existe donde el denominador $Q(x)$ se hace 0**. Ahí es donde suelen aparecer las asíntotas verticales.
 
 Ejemplo: $f(x)=\dfrac{1}{x-2}$ no existe en $x=2$.
 
