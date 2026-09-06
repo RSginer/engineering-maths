@@ -131,4 +131,4 @@ $$
 - [ ] Entiendo qué es la continuidad de una función.
 - [ ] Reconozco la notación de intervalos ($[a,b]$, $(a,b)$).
 
-Si todos estos puntos están claros, la teoría de [teoria-limites.md](calculo1/limites/teoria-limites.md) se entiende con mucha más facilidad.
+Si todos estos puntos están claros, la teoría de [teoria-limites.md](../teoria-limites.md) se entiende con mucha más facilidad.
