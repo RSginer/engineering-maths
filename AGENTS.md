@@ -2,6 +2,23 @@
 
 Instructions for AI agents working in this repository.
 
+## Embedding YouTube videos in Markdown
+
+GitHub strips `<iframe>` tags from rendered Markdown, so a real embedded
+player is not possible. The convention in this repo is a **clickable
+thumbnail** that links out to YouTube:
+
+```
+[![Título del vídeo](https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID "Título del vídeo")
+```
+
+- `https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg` is YouTube's official
+  thumbnail CDN and works for any valid video ID without needing scraping.
+- **Never guess or fabricate a `VIDEO_ID`.** Only use IDs confirmed via an
+  actual web search result (a real URL you observed), never invented from
+  memory — a wrong ID silently links to an unrelated or nonexistent video.
+- Prefer well-known, reputable educational channels for the subject.
+
 ## Math notation convention (GitHub Flavored Markdown)
 
 All `.md` files in this repo must use **GitHub's supported math syntax** for LaTeX
