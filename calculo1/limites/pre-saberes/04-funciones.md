@@ -56,6 +56,8 @@ Ejemplo: $f(x)=2x+1$
 | 1 | 3 |
 | 2 | 5 |
 
+![Función lineal f(x)=2x+1](img/lineal.png)
+
 ### 2. Función cuadrática
 
 $$
@@ -76,6 +78,8 @@ Ejemplo: $f(x)=x^2$
 
 Fíjate que para valores opuestos de $x$ (como -2 y 2), el resultado es el mismo. Por eso la parábola es simétrica.
 
+![Función cuadrática f(x)=x²](img/cuadratica.png)
+
 ### 3. Función racional
 
 $$
@@ -86,6 +90,8 @@ Es una fracción donde arriba y abajo hay polinomios. Su característica más im
 
 Ejemplo: $f(x)=\dfrac{1}{x-2}$ no existe en $x=2$.
 
+![Función racional f(x)=1/(x-2)](img/racional.png)
+
 ### 4. Función raíz
 
 $$
@@ -93,6 +99,8 @@ f(x)=\sqrt{x}
 $$
 
 Solo existe para $x\ge0$ (no hay raíces cuadradas reales de números negativos).
+
+![Función raíz f(x)=√x](img/raiz.png)
 
 ---
 

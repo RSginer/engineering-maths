@@ -84,6 +84,10 @@ Cuando al sustituir el denominador da 0 **pero el numerador no da 0**, el límit
 
 **Regla práctica para el signo del denominador:** factoriza si puedes, o simplemente sustituye un número muy cercano a $a$ por ese lado (ej. $a-0.01$ o $a+0.01$) y mira el signo.
 
+![Gráfica del Ejercicio 6: f(x)=1/(x-2)](img/ejercicio6.png)
+
+![Gráfica del Ejercicio 3: f(x)=(x²+x+2)/(x+1)](img/ejercicio3.png)
+
 ---
 
 ## 5. Límites en el infinito de funciones racionales (Ejercicios 4 y 5)
@@ -106,6 +110,10 @@ $$\lim_{x\to+\infty}\frac{4x^2-3x+1}{2x^2+5x-7}=\frac{4}{2}=2$$
 $$\lim_{x\to+\infty}\frac{3x+2}{x^2-1}=0$$
 (el denominador crece mucho más rápido que el numerador, por lo que la fracción tiende a 0)
 
+![Gráfica del Ejercicio 4: asíntota horizontal y=2](img/ejercicio4.png)
+
+![Gráfica del Ejercicio 5: asíntota horizontal y=0](img/ejercicio5.png)
+
 ---
 
 ## 6. Límites trigonométricos con discontinuidades (Ejercicio 7)
@@ -118,6 +126,8 @@ Cerca de $x=\dfrac{\pi}{2}$: $\sin x\to1$ (positivo), y hay que estudiar el sign
 - $x\to\dfrac{\pi}{2}^+$ (ángulos un poco mayores, en el 2º cuadrante): $\cos x\to0^-$ → $\tan x\to\dfrac{1}{0^-}=-\infty$
 
 Como los laterales son distintos ($+\infty\neq-\infty$), **no existe** $\lim_{x\to\pi/2}\tan x$. Asíntota vertical en $x=\dfrac{\pi}{2}$.
+
+![Gráfica del Ejercicio 7: f(x)=tan(x)](img/ejercicio7.png)
 
 ---
 

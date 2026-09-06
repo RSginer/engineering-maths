@@ -10,6 +10,8 @@ $$
 
 **Resultado:** 6
 
+![Gráfica del Ejercicio 1](img/ejercicio1.png)
+
 ---
 
 ## Ejercicio 2 — Indeterminación $0/0$
@@ -28,6 +30,8 @@ $$
 
 **Resultado:** 6
 
+![Gráfica del Ejercicio 2](img/ejercicio2.png)
+
 ---
 
 ## Ejercicio 3 — Límites laterales e infinitos $k/0$
@@ -44,5 +48,7 @@ En $x=-1$: numerador $=1-1+2=2$ (positivo), denominador $=0$ → forma $2/0$ (in
 Como los límites laterales son distintos ($-\infty \neq +\infty$), el **límite no existe** (asíntota vertical en $x=-1$).
 
 **Resultado:** no existe (izq. $-\infty$, der. $+\infty$)
+
+![Gráfica del Ejercicio 3](img/ejercicio3.png)
 
 ---
