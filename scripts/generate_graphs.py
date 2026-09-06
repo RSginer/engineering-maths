@@ -153,4 +153,27 @@ for lo, hi in [(-4, 1.9), (2.1, 4)]:
 ax.axvline(2, color="tab:red", linestyle="--")
 save(fig, f"{PRESABERES_IMG}/racional.png")
 
+fig, ax = new_axes((-4, 4), (0, 4.5), "Función a trozos: f(x) = x² si x≤2, x+2 si x>2")
+x1 = np.linspace(-4, 2, 200)
+x2 = np.linspace(2, 4, 200)
+ax.plot(x1, x1 ** 2, color="tab:blue")
+ax.plot(x2, x2 + 2, color="tab:blue")
+ax.plot(2, 4, "o", color="tab:blue")
+save(fig, f"{PRESABERES_IMG}/trozos.png")
+
+fig, ax = new_axes((-5, 5), (-1, 5), "Función valor absoluto: f(x) = |x|")
+x = np.linspace(-5, 5, 400)
+ax.plot(x, np.abs(x), color="tab:blue")
+save(fig, f"{PRESABERES_IMG}/valor_absoluto.png")
+
+fig, ax = new_axes((-3, 3), (-1, 10), "Función exponencial: f(x) = eˣ")
+x = np.linspace(-3, 3, 400)
+ax.plot(x, np.exp(x), color="tab:blue")
+save(fig, f"{PRESABERES_IMG}/exponencial.png")
+
+fig, ax = new_axes((-1, 8), (-4, 3), "Función logarítmica: f(x) = ln(x)")
+x = np.linspace(0.05, 8, 400)
+ax.plot(x, np.log(x), color="tab:blue")
+save(fig, f"{PRESABERES_IMG}/logaritmo.png")
+
 print("Todas las gráficas generadas correctamente.")

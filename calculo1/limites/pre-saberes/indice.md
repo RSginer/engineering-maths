@@ -47,12 +47,15 @@ $$
 ## 4. [Funciones: concepto y tipos](04-funciones.md)
 
 - **Qué es una función:** relación que asocia a cada $x$ del dominio un único valor $f(x)$.
-- **Dominio y recorrido:** valores de $x$ donde la función está definida (ojo con denominadores que se anulan y raíces de índice par con radicando negativo).
+- **Dominio y recorrido:** valores de $x$ donde la función está definida (ojo con denominadores que se anulan y raíces de índice par con radicando negativo), con su notación formal $\text{Dom}(f)$, $\text{Im}(f)$ y la notación de intervalos $[a,b]$, $(a,b)$.
 - **Gráficas de funciones básicas:**
   - Función lineal $f(x)=mx+n$
   - Función cuadrática $f(x)=ax^2+bx+c$ (parábola)
   - Función racional $f(x)=\dfrac{P(x)}{Q(x)}$
   - Función raíz $f(x)=\sqrt{x}$
+  - Función a trozos (reglas distintas según el intervalo de $x$)
+  - Función valor absoluto $f(x)=|x|$
+  - Función exponencial $f(x)=a\cdot e^{bx}$ y logarítmica $f(x)=a\cdot\ln(x)$
 - **Funciones racionales:** entender que se anulan (no existen) cuando el denominador es 0 — esto es la base de las asíntotas verticales.
 
 ---
@@ -75,6 +78,8 @@ $$
 ## 7. [Trigonometría básica](07-trigonometria.md)
 
 - **Círculo unidad**, seno, coseno y tangente: $\tan x=\dfrac{\sin x}{\cos x}$.
+- **Identidad fundamental:** $\sin^2(x)+\cos^2(x)=1$.
+- **Funciones recíprocas:** cosecante, secante y cotangente ($\csc x$, $\sec x$, $\cot x$).
 - Valores de $\sin$, $\cos$ y $\tan$ en ángulos notables ($0$, $\pi/6$, $\pi/4$, $\pi/3$, $\pi/2$).
 - Signo de $\sin x$ y $\cos x$ según el cuadrante.
 - Dónde se anula $\cos x$ (en $\pi/2+k\pi$) — importante para entender las asíntotas de la tangente.
@@ -108,6 +113,7 @@ $$
 | $x\to+\infty$ | $x$ crece sin límite |
 | $f(a)$ | Valor de la función en $x=a$ (puede no existir) |
 | $0/0$, $\infty/\infty$ | Indeterminaciones |
+| $[a,b]$, $(a,b)$ | Intervalo cerrado / abierto entre $a$ y $b$ |
 
 ---
 
@@ -119,9 +125,10 @@ $$
 - [ ] Sé racionalizar expresiones con raíces.
 - [ ] Sé identificar el grado y coeficiente principal de un polinomio.
 - [ ] Sé estudiar el signo de una expresión en un punto.
-- [ ] Conozco las funciones básicas (lineal, cuadrática, racional) y sus gráficas.
-- [ ] Conozco seno, coseno, tangente y sus signos por cuadrante.
+- [ ] Conozco las funciones básicas (lineal, cuadrática, racional, raíz, a trozos, valor absoluto, exponencial y logarítmica) y sus gráficas.
+- [ ] Conozco seno, coseno, tangente, sus recíprocas y sus signos por cuadrante.
 - [ ] Entiendo la idea intuitiva de infinito y de "acercarse a un valor".
 - [ ] Entiendo qué es la continuidad de una función.
+- [ ] Reconozco la notación de intervalos ($[a,b]$, $(a,b)$).
 
 Si todos estos puntos están claros, la teoría de [teoria-limites.md](calculo1/limites/teoria-limites.md) se entiende con mucha más facilidad.

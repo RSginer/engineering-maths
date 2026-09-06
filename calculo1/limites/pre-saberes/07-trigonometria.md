@@ -21,6 +21,32 @@ Es literalmente una **división**, así que todo lo que sabemos de fracciones (�
 
 ---
 
+## La identidad fundamental
+
+Por el Teorema de Pitágoras aplicado al círculo unidad (el radio siempre vale 1), se cumple siempre, para cualquier ángulo $x$:
+
+$$
+\sin^2(x)+\cos^2(x)=1
+$$
+
+Esta identidad es muy útil para simplificar expresiones trigonométricas y para deducir otras relaciones.
+
+## Las funciones trigonométricas recíprocas
+
+Además de seno, coseno y tangente, existen sus "inversas multiplicativas" (uno dividido entre cada una):
+
+$$
+\csc(x)=\frac{1}{\sin(x)} \qquad \sec(x)=\frac{1}{\cos(x)} \qquad \cot(x)=\frac{1}{\tan(x)}
+$$
+
+- **Cosecante** ($\csc$): no existe donde $\sin(x)=0$ (en $0$, $\pi$, $2\pi$...).
+- **Secante** ($\sec$): no existe donde $\cos(x)=0$ (en $\pi/2$, $3\pi/2$...) — igual que la tangente.
+- **Cotangente** ($\cot$): no existe donde $\tan(x)=0$, es decir donde $\sin(x)=0$.
+
+Fíjate que todas siguen la misma lógica que ya conocemos: son fracciones, y **no existen donde su denominador se anula**.
+
+---
+
 ## Ángulos notables (los que hay que memorizar)
 
 | Ángulo | $\sin$ | $\cos$ | $\tan$ |

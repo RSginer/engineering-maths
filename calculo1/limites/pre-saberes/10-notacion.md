@@ -70,6 +70,20 @@ Las matemáticas usan símbolos para escribir ideas de forma corta. Aquí vamos 
 
 ---
 
+## Notación de intervalos: $[a,b]$, $(a,b)$, $[a,b)$, $(a,b]$
+
+**Se lee:** "intervalo cerrado/abierto entre $a$ y $b$".
+
+**Significa:** un conjunto de números entre $a$ y $b$. El **corchete** ($[$ o $]$) incluye ese extremo; el **paréntesis** ($($ o $)$) lo excluye.
+
+- $[a,b]$: incluye ambos extremos (cerrado)
+- $(a,b)$: no incluye ninguno (abierto)
+- $[a,b)$ / $(a,b]$: incluye solo uno de los dos
+
+Se usa muchísimo para describir dominios e imágenes de funciones, por ejemplo $\text{Dom}(f)=[0,+\infty)$.
+
+---
+
 ## $+\infty$ y $-\infty$ como resultado de un límite
 
 **Significa:** el resultado de la función crece ($+\infty$) o decrece ($-\infty$) sin parar a medida que $x$ se acerca al punto en cuestión. **No es un número**, es una forma de decir "no existe un límite finito, y además la función se dispara hacia arriba/abajo".
@@ -102,6 +116,8 @@ Esto en realidad son **dos fórmulas en una**: una con $+$ y otra con $-$.
 | $f(a)$ | $f$ de $a$ | Valor real de la función en $a$ (puede no existir) |
 | $0/0$ | Cero entre cero | Indeterminación — hay que investigar más |
 | $\infty/\infty$ | Infinito entre infinito | Indeterminación — comparar grados |
+| $[a,b]$ | Intervalo cerrado entre $a$ y $b$ | Incluye ambos extremos |
+| $(a,b)$ | Intervalo abierto entre $a$ y $b$ | No incluye ningún extremo |
 
 ---
 
