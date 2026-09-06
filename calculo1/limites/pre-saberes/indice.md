@@ -7,9 +7,9 @@ Antes de entender bien la teoría de límites hace falta tener soltura con una s
 ## 1. [Aritmética y operaciones básicas](01-aritmetica.md)
 
 - **Fracciones:** sumar, restar, multiplicar, dividir, simplificar.
-- **Signos:** reglas de multiplicación/división de positivos y negativos (\(+\cdot+=+\), \(+\cdot-=-\), \(-\cdot-=+\)).
-- **Potencias:** \(a^n\), \(a^0=1\), \(a^{-n}=\dfrac{1}{a^n}\), \(a^{m/n}=\sqrt[n]{a^m}\).
-- **Raíces:** propiedades \(\sqrt{a\cdot b}=\sqrt{a}\cdot\sqrt{b}\), racionalización de denominadores.
+- **Signos:** reglas de multiplicación/división de positivos y negativos ($+\cdot+=+$, $+\cdot-=-$, $-\cdot-=+$).
+- **Potencias:** $a^n$, $a^0=1$, $a^{-n}=\dfrac{1}{a^n}$, $a^{m/n}=\sqrt[n]{a^m}$.
+- **Raíces:** propiedades $\sqrt{a\cdot b}=\sqrt{a}\cdot\sqrt{b}$, racionalización de denominadores.
 - **Jerarquía de operaciones:** paréntesis → potencias/raíces → multiplicación/división → suma/resta.
 
 Sin esto, cualquier manipulación algebraica posterior (necesaria para resolver indeterminaciones) se vuelve muy difícil.
@@ -19,18 +19,18 @@ Sin esto, cualquier manipulación algebraica posterior (necesaria para resolver 
 ## 2. [Álgebra básica](02-algebra.md)
 
 - **Expresiones algebraicas:** simplificar, agrupar términos semejantes.
-- **Ecuaciones de primer y segundo grado:** despejar \(x\), fórmula general \(x=\dfrac{-b\pm\sqrt{b^2-4ac}}{2a}\).
+- **Ecuaciones de primer y segundo grado:** despejar $x$, fórmula general $x=\dfrac{-b\pm\sqrt{b^2-4ac}}{2a}$.
 - **Productos notables:**
-  - \((a+b)^2=a^2+2ab+b^2\)
-  - \((a-b)^2=a^2-2ab+b^2\)
-  - \((a+b)(a-b)=a^2-b^2\) ← clave para indeterminaciones \(0/0\)
+  - $(a+b)^2=a^2+2ab+b^2$
+  - $(a-b)^2=a^2-2ab+b^2$
+  - $(a+b)(a-b)=a^2-b^2$ ← clave para indeterminaciones $0/0$
 - **Factorización de polinomios:**
   - Factor común
   - Diferencia de cuadrados
   - Trinomio de segundo grado
-  - Regla de Ruffini / división de polinomios (si \(x=a\) es raíz, entonces \((x-a)\) es un factor)
+  - Regla de Ruffini / división de polinomios (si $x=a$ es raíz, entonces $(x-a)$ es un factor)
 
-Estas técnicas son **imprescindibles** para resolver la indeterminación \(0/0\) en límites (factorizar y simplificar).
+Estas técnicas son **imprescindibles** para resolver la indeterminación $0/0$ en límites (factorizar y simplificar).
 
 ---
 
@@ -40,19 +40,19 @@ Estas técnicas son **imprescindibles** para resolver la indeterminación \(0/0\
 $$
 \frac{1}{\sqrt{x}-\sqrt{a}}\cdot\frac{\sqrt{x}+\sqrt{a}}{\sqrt{x}+\sqrt{a}}=\frac{\sqrt{x}+\sqrt{a}}{x-a}
 $$
-- Se usa para eliminar indeterminaciones \(0/0\) cuando aparecen raíces en el numerador o denominador.
+- Se usa para eliminar indeterminaciones $0/0$ cuando aparecen raíces en el numerador o denominador.
 
 ---
 
 ## 4. [Funciones: concepto y tipos](04-funciones.md)
 
-- **Qué es una función:** relación que asocia a cada \(x\) del dominio un único valor \(f(x)\).
-- **Dominio y recorrido:** valores de \(x\) donde la función está definida (ojo con denominadores que se anulan y raíces de índice par con radicando negativo).
+- **Qué es una función:** relación que asocia a cada $x$ del dominio un único valor $f(x)$.
+- **Dominio y recorrido:** valores de $x$ donde la función está definida (ojo con denominadores que se anulan y raíces de índice par con radicando negativo).
 - **Gráficas de funciones básicas:**
-  - Función lineal \(f(x)=mx+n\)
-  - Función cuadrática \(f(x)=ax^2+bx+c\) (parábola)
-  - Función racional \(f(x)=\dfrac{P(x)}{Q(x)}\)
-  - Función raíz \(f(x)=\sqrt{x}\)
+  - Función lineal $f(x)=mx+n$
+  - Función cuadrática $f(x)=ax^2+bx+c$ (parábola)
+  - Función racional $f(x)=\dfrac{P(x)}{Q(x)}$
+  - Función raíz $f(x)=\sqrt{x}$
 - **Funciones racionales:** entender que se anulan (no existen) cuando el denominador es 0 — esto es la base de las asíntotas verticales.
 
 ---
@@ -68,24 +68,24 @@ $$
 ## 6. [Signo de una función / estudio de signos](06-estudio-signos.md)
 
 - Saber determinar si una expresión es positiva o negativa en un intervalo (por ejemplo, sustituyendo un valor de prueba).
-- Esto es clave para saber si un límite infinito es \(+\infty\) o \(-\infty\) según el signo del numerador y del denominador.
+- Esto es clave para saber si un límite infinito es $+\infty$ o $-\infty$ según el signo del numerador y del denominador.
 
 ---
 
 ## 7. [Trigonometría básica](07-trigonometria.md)
 
-- **Círculo unidad**, seno, coseno y tangente: \(\tan x=\dfrac{\sin x}{\cos x}\).
-- Valores de \(\sin\), \(\cos\) y \(\tan\) en ángulos notables (\(0\), \(\pi/6\), \(\pi/4\), \(\pi/3\), \(\pi/2\)).
-- Signo de \(\sin x\) y \(\cos x\) según el cuadrante.
-- Dónde se anula \(\cos x\) (en \(\pi/2+k\pi\)) — importante para entender las asíntotas de la tangente.
+- **Círculo unidad**, seno, coseno y tangente: $\tan x=\dfrac{\sin x}{\cos x}$.
+- Valores de $\sin$, $\cos$ y $\tan$ en ángulos notables ($0$, $\pi/6$, $\pi/4$, $\pi/3$, $\pi/2$).
+- Signo de $\sin x$ y $\cos x$ según el cuadrante.
+- Dónde se anula $\cos x$ (en $\pi/2+k\pi$) — importante para entender las asíntotas de la tangente.
 
 ---
 
 ## 8. [Concepto de infinito y de "acercarse a"](08-infinito-acercarse.md)
 
-- Entender \(\infty\) no como un número, sino como una idea de **crecimiento sin límite**.
-- Entender qué significa que \(x\) "se acerque" a un valor \(a\) sin llegar a serlo (idea intuitiva de proximidad).
-- Saber interpretar \(\dfrac{1}{0^+} \to +\infty\) y \(\dfrac{1}{0^-}\to-\infty\) (número finito dividido entre algo que se acerca a 0).
+- Entender $\infty$ no como un número, sino como una idea de **crecimiento sin límite**.
+- Entender qué significa que $x$ "se acerque" a un valor $a$ sin llegar a serlo (idea intuitiva de proximidad).
+- Saber interpretar $\dfrac{1}{0^+} \to +\infty$ y $\dfrac{1}{0^-}\to-\infty$ (número finito dividido entre algo que se acerca a 0).
 
 ---
 
@@ -102,12 +102,12 @@ $$
 
 | Notación | Significado |
 |---|---|
-| \(\lim_{x\to a}f(x)\) | Límite de \(f\) cuando \(x\) tiende a \(a\) |
-| \(x\to a^-\) | \(x\) se acerca a \(a\) por la izquierda (valores menores) |
-| \(x\to a^+\) | \(x\) se acerca a \(a\) por la derecha (valores mayores) |
-| \(x\to+\infty\) | \(x\) crece sin límite |
-| \(f(a)\) | Valor de la función en \(x=a\) (puede no existir) |
-| \(0/0\), \(\infty/\infty\) | Indeterminaciones |
+| $\lim_{x\to a}f(x)$ | Límite de $f$ cuando $x$ tiende a $a$ |
+| $x\to a^-$ | $x$ se acerca a $a$ por la izquierda (valores menores) |
+| $x\to a^+$ | $x$ se acerca a $a$ por la derecha (valores mayores) |
+| $x\to+\infty$ | $x$ crece sin límite |
+| $f(a)$ | Valor de la función en $x=a$ (puede no existir) |
+| $0/0$, $\infty/\infty$ | Indeterminaciones |
 
 ---
 

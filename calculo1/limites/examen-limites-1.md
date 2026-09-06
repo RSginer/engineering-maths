@@ -10,19 +10,19 @@
 
 Calcula:
 
-\[
+$$
 \lim_{x\to2}(3x^2-5x+4)
-\]
+$$
 
 ---
 
-## Ejercicio 2 — Indeterminación \(0/0\) [1,5 puntos]
+## Ejercicio 2 — Indeterminación $0/0$ [1,5 puntos]
 
 Calcula:
 
-\[
+$$
 \lim_{x\to3}\frac{x^2-9}{x-3}
-\]
+$$
 
 Indica:
 
@@ -37,27 +37,27 @@ Indica:
 
 Sea:
 
-\[
+$$
 f(x)=\frac{x^2+x+2}{x+1}
-\]
+$$
 
 Calcula:
 
-\[
+$$
 \lim_{x\to-1^-}f(x)
-\]
+$$
 
 y
 
-\[
+$$
 \lim_{x\to-1^+}f(x)
-\]
+$$
 
 Después determina si existe:
 
-\[
+$$
 \lim_{x\to-1}f(x)
-\]
+$$
 
 Justifica el signo de cada infinito.
 
@@ -67,10 +67,10 @@ Justifica el signo de cada infinito.
 
 Calcula:
 
-\[
+$$
 \lim_{x\to+\infty}
 \frac{4x^2-3x+1}{2x^2+5x-7}
-\]
+$$
 
 Justifica el procedimiento utilizado.
 
@@ -80,10 +80,10 @@ Justifica el procedimiento utilizado.
 
 Calcula:
 
-\[
+$$
 \lim_{x\to+\infty}
 \frac{3x+2}{x^2-1}
-\]
+$$
 
 Explica por qué obtienes ese resultado.
 
@@ -93,17 +93,17 @@ Explica por qué obtienes ese resultado.
 
 Calcula los límites laterales:
 
-\[
+$$
 \lim_{x\to2^-}\frac{1}{x-2}
-\]
+$$
 
-\[
+$$
 \lim_{x\to2^+}\frac{1}{x-2}
-\]
+$$
 
 Después responde:
 
-- ¿Existe el límite bilateral cuando \(x\to2\)?
+- ¿Existe el límite bilateral cuando $x\to2$?
 - ¿Tiene la función una asíntota vertical?
 - En caso afirmativo, ¿cuál?
 
@@ -113,21 +113,21 @@ Después responde:
 
 Estudia:
 
-\[
+$$
 \lim_{x\to\frac{\pi}{2}^-}\tan(x)
-\]
+$$
 
 y
 
-\[
+$$
 \lim_{x\to\frac{\pi}{2}^+}\tan(x)
-\]
+$$
 
 ¿Existe?
 
-\[
+$$
 \lim_{x\to\frac{\pi}{2}}\tan(x)
-\]
+$$
 
 Justifica tu respuesta.
 
@@ -137,13 +137,13 @@ Justifica tu respuesta.
 
 Explica con tus propias palabras qué significa:
 
-\[
+$$
 \lim_{x\to a}f(x)=L
-\]
+$$
 
 Responde también:
 
-> ¿Es necesario que \(f(a)=L\) para que el límite sea \(L\)?
+> ¿Es necesario que $f(a)=L$ para que el límite sea $L$?
 
 Justifica tu respuesta.
 

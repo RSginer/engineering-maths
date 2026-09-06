@@ -14,8 +14,8 @@ $$
 f(x) = x+3
 $$
 
-- \(x\) es lo que metes (la entrada).
-- \(f(x)\) es lo que sale (la salida).
+- $x$ es lo que metes (la entrada).
+- $f(x)$ es lo que sale (la salida).
 
 Lo importante de una función es que **a cada entrada le corresponde una única salida**. Si metieras el mismo número dos veces, siempre te tendría que devolver el mismo resultado.
 
@@ -30,11 +30,11 @@ Lo importante de una función es que **a cada entrada le corresponde una única 
 
 1. **Cuando hay una división y el denominador se hace 0.** No se puede dividir entre 0.
 
-Ejemplo: \(f(x)=\dfrac{1}{x-2}\) — no se puede calcular en \(x=2\), porque el denominador sería 0. Entonces \(x=2\) **no** está en el dominio.
+Ejemplo: $f(x)=\dfrac{1}{x-2}$ — no se puede calcular en $x=2$, porque el denominador sería 0. Entonces $x=2$ **no** está en el dominio.
 
 2. **Cuando hay una raíz de índice par (cuadrada, cuarta...) y lo de dentro es negativo.** No existen (en los números reales) raíces cuadradas de números negativos.
 
-Ejemplo: \(f(x)=\sqrt{x}\) solo se puede calcular si \(x\ge0\).
+Ejemplo: $f(x)=\sqrt{x}$ solo se puede calcular si $x\ge0$.
 
 ---
 
@@ -46,11 +46,11 @@ $$
 f(x)=mx+n
 $$
 
-Su gráfica es siempre una **línea recta**. \(m\) es la pendiente (cuánto sube o baja la recta) y \(n\) es donde corta al eje vertical.
+Su gráfica es siempre una **línea recta**. $m$ es la pendiente (cuánto sube o baja la recta) y $n$ es donde corta al eje vertical.
 
-Ejemplo: \(f(x)=2x+1\)
+Ejemplo: $f(x)=2x+1$
 
-| \(x\) | \(f(x)\) |
+| $x$ | $f(x)$ |
 |---|---|
 | 0 | 1 |
 | 1 | 3 |
@@ -64,9 +64,9 @@ $$
 
 Su gráfica es una **parábola** (forma de "U" o de "U" invertida).
 
-Ejemplo: \(f(x)=x^2\)
+Ejemplo: $f(x)=x^2$
 
-| \(x\) | \(f(x)\) |
+| $x$ | $f(x)$ |
 |---|---|
 | -2 | 4 |
 | -1 | 1 |
@@ -74,7 +74,7 @@ Ejemplo: \(f(x)=x^2\)
 | 1 | 1 |
 | 2 | 4 |
 
-Fíjate que para valores opuestos de \(x\) (como -2 y 2), el resultado es el mismo. Por eso la parábola es simétrica.
+Fíjate que para valores opuestos de $x$ (como -2 y 2), el resultado es el mismo. Por eso la parábola es simétrica.
 
 ### 3. Función racional
 
@@ -82,9 +82,9 @@ $$
 f(x)=\frac{P(x)}{Q(x)}
 $$
 
-Es una fracción donde arriba y abajo hay polinomios. Su característica más importante para nosotros: **no existe donde el denominador (\(Q(x)\)) se hace 0**. Ahí es donde suelen aparecer las asíntotas verticales.
+Es una fracción donde arriba y abajo hay polinomios. Su característica más importante para nosotros: **no existe donde el denominador ($Q(x)$) se hace 0**. Ahí es donde suelen aparecer las asíntotas verticales.
 
-Ejemplo: \(f(x)=\dfrac{1}{x-2}\) no existe en \(x=2\).
+Ejemplo: $f(x)=\dfrac{1}{x-2}$ no existe en $x=2$.
 
 ### 4. Función raíz
 
@@ -92,7 +92,7 @@ $$
 f(x)=\sqrt{x}
 $$
 
-Solo existe para \(x\ge0\) (no hay raíces cuadradas reales de números negativos).
+Solo existe para $x\ge0$ (no hay raíces cuadradas reales de números negativos).
 
 ---
 

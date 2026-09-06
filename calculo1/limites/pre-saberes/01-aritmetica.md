@@ -6,7 +6,7 @@ Vamos a repasar las cosas más básicas de las matemáticas, explicadas muy desp
 
 ## Las fracciones
 
-Una fracción es una forma de repartir algo en partes iguales. Si partes una pizza en 4 trozos iguales y te comes 1, te has comido \(\dfrac{1}{4}\) de la pizza.
+Una fracción es una forma de repartir algo en partes iguales. Si partes una pizza en 4 trozos iguales y te comes 1, te has comido $\dfrac{1}{4}$ de la pizza.
 
 - El número de **arriba** (numerador) dice cuántos trozos tienes.
 - El número de **abajo** (denominador) dice en cuántos trozos se ha dividido el total.
@@ -25,7 +25,7 @@ $$
 \frac{1}{2}+\frac{1}{3}=\frac{3}{6}+\frac{2}{6}=\frac{5}{6}
 $$
 
-(Aquí hemos convertido ambas fracciones para que tengan denominador 6, porque \(2\times3=6\).)
+(Aquí hemos convertido ambas fracciones para que tengan denominador 6, porque $2\times3=6$.)
 
 ### Multiplicar fracciones
 
@@ -61,10 +61,10 @@ Reglas para multiplicar y dividir:
 
 | Operación | Resultado | Ejemplo |
 |---|---|---|
-| \(+\times+\) | \(+\) | \(3\times2=6\) |
-| \(+\times-\) | \(-\) | \(3\times(-2)=-6\) |
-| \(-\times+\) | \(-\) | \((-3)\times2=-6\) |
-| \(-\times-\) | \(+\) | \((-3)\times(-2)=6\) |
+| $+\times+$ | $+$ | $3\times2=6$ |
+| $+\times-$ | $-$ | $3\times(-2)=-6$ |
+| $-\times+$ | $-$ | $(-3)\times2=-6$ |
+| $-\times-$ | $+$ | $(-3)\times(-2)=6$ |
 
 **Truco para recordarlo:** si los dos signos son iguales, el resultado es positivo. Si son distintos, el resultado es negativo. (Igual para la división.)
 
@@ -78,22 +78,22 @@ $$
 a^n = \underbrace{a\times a\times\cdots\times a}_{n\text{ veces}}
 $$
 
-Por ejemplo: \(2^3=2\times2\times2=8\)
+Por ejemplo: $2^3=2\times2\times2=8$
 
 Reglas importantes:
 
-- **Cualquier número elevado a 0 es 1:** \(a^0=1\)
+- **Cualquier número elevado a 0 es 1:** $a^0=1$
 - **Exponente negativo** significa "el inverso":
 $$
 a^{-n}=\frac{1}{a^n}
 $$
-Ejemplo: \(2^{-3}=\dfrac{1}{2^3}=\dfrac{1}{8}\)
+Ejemplo: $2^{-3}=\dfrac{1}{2^3}=\dfrac{1}{8}$
 
 - **Exponente fraccionario** es una raíz:
 $$
 a^{m/n}=\sqrt[n]{a^m}
 $$
-Ejemplo: \(8^{1/3}=\sqrt[3]{8}=2\)
+Ejemplo: $8^{1/3}=\sqrt[3]{8}=2$
 
 ---
 
@@ -111,7 +111,7 @@ $$
 \sqrt{a\times b}=\sqrt{a}\times\sqrt{b}
 $$
 
-Ejemplo: \(\sqrt{4\times9}=\sqrt{4}\times\sqrt{9}=2\times3=6\) (y en efecto, \(\sqrt{36}=6\)) ✅
+Ejemplo: $\sqrt{4\times9}=\sqrt{4}\times\sqrt{9}=2\times3=6$ (y en efecto, $\sqrt{36}=6$) ✅
 
 ### Racionalizar un denominador
 
@@ -127,7 +127,7 @@ $$
 
 Cuando en una cuenta hay varias operaciones mezcladas, hay un orden que **siempre** hay que seguir, como si fueran las reglas de un juego:
 
-1. **Paréntesis** primero: \((\;)\)
+1. **Paréntesis** primero: $(\;)$
 2. **Potencias y raíces**
 3. **Multiplicaciones y divisiones** (de izquierda a derecha)
 4. **Sumas y restas** (de izquierda a derecha)
@@ -138,10 +138,10 @@ $$
 2+3\times(4-1)^2
 $$
 
-1. Paréntesis: \(4-1=3\) → queda \(2+3\times3^2\)
-2. Potencia: \(3^2=9\) → queda \(2+3\times9\)
-3. Multiplicación: \(3\times9=27\) → queda \(2+27\)
-4. Suma: \(2+27=29\)
+1. Paréntesis: $4-1=3$ → queda $2+3\times3^2$
+2. Potencia: $3^2=9$ → queda $2+3\times9$
+3. Multiplicación: $3\times9=27$ → queda $2+27$
+4. Suma: $2+27=29$
 
 **Resultado:** 29
 
