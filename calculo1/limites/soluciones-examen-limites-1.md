@@ -30,7 +30,7 @@
 
 ---
 
-## Ejercicio 3 — Límites laterales e infinitos
+## Ejercicio 3 — Límites laterales e infinitos \(k/0\)
 
 \[
 f(x)=\frac{x^2+x+2}{x+1}
