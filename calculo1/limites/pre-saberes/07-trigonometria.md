@@ -1,6 +1,9 @@
 # 7️⃣ Trigonometría básica (explicado paso a paso)
 
-La trigonometría estudia los ángulos y sus relaciones. Aquí nos centraremos en lo necesario para entender el límite de la tangente. En cálculo los ángulos se expresan normalmente en **radianes**: $\pi$ radianes equivalen a $180^\circ$.
+La trigonometría estudia los ángulos y sus relaciones. Aquí nos centraremos en lo necesario para entender el límite de la tangente.
+
+> [!IMPORTANT]
+> En cálculo los ángulos se expresan normalmente en **radianes**: $\pi$ radianes equivalen a $180^\circ$.
 
 ---
 
@@ -111,3 +114,38 @@ Como el resultado por la izquierda ($+\infty$) es distinto al de la derecha ($-\
 ## 🧠 Por qué importa esto para los límites
 
 El Ejercicio 7 del examen pide estudiar el límite de $\tan x$ cuando $x\to\pi/2$. Sin saber que la tangente es una división entre seno y coseno, sin saber dónde se anula el coseno, y sin saber estudiar el signo por cuadrantes, es imposible justificar por qué el límite da $+\infty$ por un lado y $-\infty$ por el otro.
+
+---
+
+## Comprueba lo aprendido
+
+**1. Calcula $\tan(\pi/4)$ usando seno y coseno.**
+
+<details>
+<summary>Comprobar resultado</summary>
+
+Como $\sin(\pi/4)=\cos(\pi/4)=\sqrt2/2$:
+
+$$
+\tan(\pi/4)=\frac{\sqrt2/2}{\sqrt2/2}=1.
+$$
+
+</details>
+
+**2. ¿Dónde no está definida $\tan x$?**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+Donde $\cos x=0$, es decir, en $x=\pi/2+k\pi$ para cualquier entero $k$.
+
+</details>
+
+**3. Predice el signo de $\tan x$ en el segundo cuadrante.**
+
+<details>
+<summary>Ver solución razonada</summary>
+
+En el segundo cuadrante, $\sin x>0$ y $\cos x<0$. Por tanto, $\tan x=\sin x/\cos x<0$.
+
+</details>

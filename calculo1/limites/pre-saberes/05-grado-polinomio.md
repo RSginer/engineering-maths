@@ -76,8 +76,46 @@ Si en cambio ambos tuvieran el mismo grado, por ejemplo $4x^2$ arriba y $2x^2$ a
 
 Para $x\to-\infty$ también influye si la diferencia de grados es par o impar. Por eso no conviene escribir automáticamente $+\infty$ o $-\infty$: primero compara los grados y después estudia el signo.
 
+> [!WARNING]
+> La comparación de grados determina el tamaño dominante, pero no siempre el signo. Cuando $x\to-\infty$ y el numerador tiene mayor grado, revisa la paridad de $n-m$.
+
 ---
 
 ## 🧠 Por qué importa esto para los límites
 
 Los Ejercicios 4 y 5 del examen (límites cuando $x\to+\infty$) se resuelven **directamente** comparando el grado del numerador y del denominador, sin necesidad de operaciones complicadas. Si sabes identificar el grado y el coeficiente principal de un polinomio, estos ejercicios son casi automáticos.
+
+---
+
+## Comprueba lo aprendido
+
+**1. Indica el grado y el coeficiente principal de $-3x^5+2x^2-7$.**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+El término dominante es $-3x^5$. El grado es $5$ y el coeficiente principal es $-3$.
+
+</details>
+
+**2. Predice $\displaystyle\lim_{x\to+\infty}\dfrac{5x^2+1}{-2x^2+3x}$.**
+
+<details>
+<summary>Ver solución razonada</summary>
+
+Los dos polinomios tienen grado $2$, así que el límite es el cociente de los coeficientes principales:
+
+$$
+\frac{5}{-2}=-\frac52.
+$$
+
+</details>
+
+**3. Compara $\displaystyle\lim_{x\to+\infty}x^3/x^2$ y $\displaystyle\lim_{x\to-\infty}x^3/x^2$.**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+El cociente se simplifica a $x$. Por eso el primer límite es $+\infty$ y el segundo es $-\infty$. El signo cambia porque la diferencia de grados es impar.
+
+</details>

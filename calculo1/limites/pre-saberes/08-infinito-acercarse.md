@@ -6,7 +6,8 @@ Esta es quizás la idea más importante de todo el tema de límites, y también 
 
 ## El infinito no es un número
 
-El símbolo $\infty$ **no representa un número concreto**. Representa la idea de **"crecer sin parar, sin llegar nunca a un tope"**.
+> [!IMPORTANT]
+> El símbolo $\infty$ **no representa un número real**. Describe un comportamiento sin cota, no un valor que pueda sustituirse en una operación ordinaria.
 
 Imagina que cuentas: 1, 2, 3, 4, 5... Por muy alto que llegues, siempre puedes seguir contando uno más. Nunca "llegas" al infinito, simplemente el proceso de contar **no tiene fin**. Eso es lo que significa $\infty$.
 
@@ -57,9 +58,13 @@ Si tiende a $0^-$, se hace cada vez más pequeña en valor absoluto pero manteni
 
 Esta es la clave para entender los límites infinitos. Observa qué ocurre con $1/t$ cuando $t$ es positivo y se acerca a cero:
 
-- $1\div0.1=10$
-- $1\div0.01=100$
-- $1\div0.001=1000$
+| $t$ | $1/t$ |
+|---:|---:|
+| $0.1$ | $10$ |
+| $0.01$ | $100$ |
+| $0.001$ | $1000$ |
+
+Cada vez que $t$ se divide entre $10$, el cociente se multiplica por $10$.
 
 Cuanto más pequeño es el número por el que divides (más cerca de 0), **más grande** se hace el resultado. Por eso:
 
@@ -101,3 +106,34 @@ Las expresiones $1/0^+$ y $1/0^-$ son abreviaturas para describir un proceso; no
 ## 🧠 Por qué importa esto para los límites
 
 Todo el examen gira en torno a estas dos ideas: **analizar valores arbitrariamente cercanos** y **crecer sin límite**. Si entiendes bien estas dos ideas con los ejemplos numéricos anteriores, comprenderás *por qué* funcionan las reglas de los límites en lugar de memorizarlas sin más.
+
+---
+
+## Comprueba lo aprendido
+
+**1. Ordena estos valores según se acercan a $2$ por la izquierda: $1.9$, $1.999$, $1.99$.**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+El orden de aproximación es $1.9$, $1.99$, $1.999$. Sus distancias a $2$ son $0.1$, $0.01$ y $0.001$.
+
+</details>
+
+**2. ¿Puede sustituirse $x=+\infty$ como si fuese un número?**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+No. $x\to+\infty$ significa estudiar qué sucede cuando $x$ toma valores positivos cada vez mayores.
+
+</details>
+
+**3. Predice $1/t$ cuando $t\to0^-$ y explica el signo.**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+$1/t\to-\infty$. El numerador es positivo y el denominador se mantiene negativo mientras su valor absoluto disminuye.
+
+</details>

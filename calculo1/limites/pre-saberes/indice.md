@@ -142,3 +142,15 @@ Si todos estos puntos están claros, la teoría de [teoria-limites.md](../teoria
 3. Estudia la [teoría de límites](../teoria-limites.md).
 4. Haz el [examen](../examen-limites-1.md) sin consultar apuntes.
 5. Corrige tanto el resultado como la justificación con las [soluciones completas](../soluciones-examen-limites-1.md).
+
+```mermaid
+flowchart TD
+    A["Aritmética y álgebra"] --> B["Funciones y dominio"]
+    B --> C["Signos, trigonometría e infinito"]
+    C --> D["Continuidad y notación"]
+    D --> E["Teoría de límites"]
+    E --> F["Examen sin apuntes"]
+    F --> G["Corrección razonada"]
+```
+
+Para experimentar con tablas numéricas y cambiar valores, utiliza después el [laboratorio de límites con Python](../laboratorio-limites.ipynb). Es opcional y no sustituye la justificación algebraica.

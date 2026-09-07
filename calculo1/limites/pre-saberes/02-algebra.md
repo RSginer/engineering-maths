@@ -148,9 +148,19 @@ Si sabes que $x=a$ es una solución del polinomio (es decir, si sustituyes $x=a$
 
 **Idea clave:** si $P(a)=0$, entonces $P(x) = (x-a)\cdot Q(x)$ para algún polinomio $Q(x)$ más pequeño.
 
+| Aspecto de la expresión | Técnica que conviene probar | Ejemplo |
+|---|---|---|
+| Todos los términos comparten un factor | Factor común | $6x^2+9x=3x(2x+3)$ |
+| Hay una resta de dos cuadrados | Diferencia de cuadrados | $x^2-16=(x-4)(x+4)$ |
+| Hay un trinomio $x^2+bx+c$ | Buscar dos números que sumen $b$ y multipliquen $c$ | $x^2-5x+6=(x-2)(x-3)$ |
+| Se conoce una raíz $x=a$ | Ruffini o división de polinomios | $P(x)=(x-a)Q(x)$ |
+
 ### Cancelar correctamente
 
-Solo se pueden cancelar **factores que multiplican** a todo el numerador y a todo el denominador. No se pueden cancelar términos dentro de una suma. Por ejemplo:
+> [!WARNING]
+> Solo se pueden cancelar **factores que multiplican** a todo el numerador y a todo el denominador. No se pueden cancelar términos dentro de una suma.
+
+Por ejemplo:
 
 $$
 \frac{(x-3)(x+3)}{x-3}=x+3 \quad (x\ne3),
@@ -165,3 +175,42 @@ pero en $\dfrac{x+3}{x}$ no se pueden "tachar las $x$". Además, al simplificar 
 ## 🧠 Por qué importa esto para los límites
 
 Cuando un límite da la indeterminación $0/0$, la salida casi siempre es **factorizar** el numerador y el denominador para encontrar un factor común que se pueda simplificar (cancelar). Sin saber factorizar bien, no se puede resolver ese tipo de ejercicio.
+
+---
+
+## Comprueba lo aprendido
+
+**1. Resuelve $3x-7=11$.**
+
+<details>
+<summary>Comprobar resultado</summary>
+
+Sumamos $7$ en ambos miembros y dividimos entre $3$:
+
+$$
+3x=18 \quad\Longrightarrow\quad x=6.
+$$
+
+</details>
+
+**2. Factoriza $x^2-7x+12$.**
+
+<details>
+<summary>Ver solución razonada</summary>
+
+Buscamos dos números cuyo producto sea $12$ y cuya suma sea $-7$: son $-3$ y $-4$.
+
+$$
+x^2-7x+12=(x-3)(x-4).
+$$
+
+</details>
+
+**3. ¿Es válida la simplificación $\dfrac{x+3}{x}=3$?**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+No. $x+3$ es una suma y $x$ no es un factor de todo el numerador. Por ejemplo, para $x=1$, la fracción vale $4$, no $3$.
+
+</details>

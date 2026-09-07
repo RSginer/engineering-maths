@@ -45,6 +45,9 @@ Para polinomios **siempre** se puede sustituir directamente. Pasos:
 
 Ocurre cuando al sustituir, numerador y denominador dan 0.
 
+> [!WARNING]
+> $0/0$ no es el valor del límite. Es una forma indeterminada: expresiones diferentes con esa misma forma pueden tener límites distintos o no tener límite.
+
 **Estrategia:** factorizar y simplificar el factor que anula.
 
 Técnicas de factorización útiles:
@@ -99,6 +102,9 @@ Cuando al sustituir el denominador da 0 **pero el numerador no da 0**, el límit
 - Distintos → no existe el límite; asíntota vertical en $x=-1$.
 
 **Regla práctica para el signo del denominador:** factoriza si puedes, o simplemente sustituye un número muy cercano a $a$ por ese lado (ej. $a-0.01$ o $a+0.01$) y mira el signo.
+
+> [!TIP]
+> Antes de escribir un infinito, prepara una tabla de signos del numerador y del denominador a cada lado del punto.
 
 ![Gráfica del Ejercicio 6: f(x)=1/(x-2)](img/ejercicio6.png)
 
@@ -169,6 +175,21 @@ Como los laterales son distintos ($+\infty\neq-\infty$), **no existe** $\lim_{x\
 
 ## 7. Resumen / checklist antes del examen
 
+Este árbol resume la decisión. Primero se sustituye y después se identifica la forma obtenida:
+
+```mermaid
+flowchart TD
+    A["Sustituir"] --> B{"¿Qué forma aparece?"}
+    B -->|"Número real"| C["Ese es el límite"]
+    B -->|"0/0"| D["Factorizar o racionalizar"]
+    D --> C
+    B -->|"Número distinto de 0 entre 0"| E["Estudiar signos laterales"]
+    E --> F{"¿Coinciden los laterales?"}
+    F -->|"Sí"| G["Existe el límite bilateral"]
+    F -->|"No"| H["No existe el límite bilateral"]
+    B -->|"Cociente en el infinito"| I["Comparar términos dominantes"]
+```
+
 1. **Sustituir siempre primero.** Si da un número → ese es el límite.
 2. Si da $0/0$ → factorizar/simplificar (o racionalizar con conjugado si hay raíces).
 3. Si da $\dfrac{\text{número}\neq0}{0}$ → límite infinito; estudiar signo por cada lado para saber si es $+\infty$ o $-\infty$.
@@ -176,3 +197,55 @@ Como los laterales son distintos ($+\infty\neq-\infty$), **no existe** $\lim_{x\
 5. En $x\to\pm\infty$ con fracciones de polinomios: comparar grados (mismo grado → cociente de coeficientes; numerador menor → 0; numerador mayor → estudiar el término dominante y su signo).
 6. Para trigonométricas con división por cero: usar el signo de $\sin$/$\cos$ en cada cuadrante cercano al punto.
 7. Recordar que el límite es sobre el **comportamiento cercano**, no sobre el valor exacto en el punto (puede no coincidir o no existir $f(a)$).
+
+El árbol no reemplaza la justificación: después de elegir una rama, escribe la transformación algebraica o el estudio de signos correspondiente.
+
+---
+
+## Comprueba lo aprendido
+
+**1. ¿Qué método usarías si la sustitución produce $0/0$ y aparecen raíces?**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+Probaría a racionalizar con el conjugado. El objetivo es transformar la expresión para encontrar y simplificar el factor que provoca el $0/0$.
+
+</details>
+
+**2. Calcula $\displaystyle\lim_{x\to2}\dfrac{x^2-4}{x-2}$.**
+
+<details>
+<summary>Ver solución razonada</summary>
+
+La sustitución produce $0/0$. Factorizamos y simplificamos para $x\ne2$:
+
+$$
+\frac{x^2-4}{x-2}=\frac{(x-2)(x+2)}{x-2}=x+2.
+$$
+
+Por tanto, el límite vale $4$.
+
+</details>
+
+**3. ¿Existe $\displaystyle\lim_{x\to0}1/x$?**
+
+<details>
+<summary>Ver solución razonada</summary>
+
+No. Por la izquierda, $1/x\to-\infty$; por la derecha, $1/x\to+\infty$. Como los laterales no coinciden, el límite bilateral no existe.
+
+</details>
+
+**4. Si una función cumple $f(3)=10$ pero se aproxima a $6$ por ambos lados de $3$, ¿cuál es el límite?**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+El límite es $6$. El valor aislado $f(3)=10$ no cambia el comportamiento de la función alrededor de $3$.
+
+</details>
+
+## Laboratorio opcional
+
+El [laboratorio de límites con Python](laboratorio-limites.ipynb) permite modificar los puntos de aproximación y observar tablas y gráficas. Úsalo para formular conjeturas; la respuesta del examen debe seguir incluyendo la justificación matemática.

@@ -50,7 +50,10 @@ $$
 \frac{+}{+}=+ \qquad \frac{+}{-}=- \qquad \frac{-}{+}=- \qquad \frac{-}{-}=+
 $$
 
-La escritura $0^+$ o $0^-$ no representa dos números llamados "cero positivo" y "cero negativo". Resume que el denominador se aproxima a cero manteniéndose positivo o negativo. Como regla de lectura:
+> [!NOTE]
+> $0^+$ y $0^-$ no son dos números distintos. Indican que una cantidad se aproxima a cero manteniéndose positiva o negativa.
+
+Como regla de lectura:
 
 $$
 \frac{2}{0^+}\to+\infty \qquad \frac{2}{0^-}\to-\infty \qquad \frac{-2}{0^+}\to-\infty \qquad \frac{-2}{0^-}\to+\infty
@@ -72,6 +75,16 @@ Queremos saber el signo de $f(x)=\dfrac{1}{x-2}$ cerca de $x=2$, por los dos lad
    - Izquierda: $\dfrac{1}{0^-}\to-\infty$
    - Derecha: $\dfrac{1}{0^+}\to+\infty$
 
+La misma información puede organizarse en una tabla de signos:
+
+| Zona | $1$ | $x-2$ | $1/(x-2)$ |
+|---|---:|---:|---:|
+| $x<2$ | $+$ | $-$ | $-$ |
+| $x=2$ | $+$ | $0$ | no definida |
+| $x>2$ | $+$ | $+$ | $+$ |
+
+La tabla permite ver de un vistazo que la función cambia de signo al cruzar $x=2$.
+
 ![Los dos acercamientos laterales a la asíntota x=2](../animaciones/LimitesLaterales.gif)
 
 ---
@@ -88,3 +101,34 @@ Esto se puede aplicar sin necesidad de sustituir números concretos, con solo pe
 ## 🧠 Por qué importa esto para los límites
 
 En los ejercicios de asíntotas verticales y límites infinitos (Ejercicios 3, 6 y 7), después de comprobar que el denominador se anula, el paso decisivo es **estudiar el signo** del numerador y del denominador por cada lado, para saber si el resultado es $+\infty$ o $-\infty$. Sin dominar esto, no se puede terminar correctamente ninguno de esos ejercicios.
+
+---
+
+## Comprueba lo aprendido
+
+**1. ¿Qué signo tiene $(x-1)(x+2)$ en el intervalo $(-2,1)$?**
+
+<details>
+<summary>Ver solución razonada</summary>
+
+Podemos probar con $x=0$. Entonces $(0-1)(0+2)=(-1)(2)<0$, así que la expresión es negativa en ese intervalo.
+
+</details>
+
+**2. Si el numerador tiende a $-3$ y el denominador a $0^+$, ¿hacia dónde tiende el cociente?**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+Tiende a $-\infty$: un número negativo dividido entre cantidades positivas cada vez más pequeñas produce valores negativos de magnitud creciente.
+
+</details>
+
+**3. ¿Por qué hay que estudiar por separado los dos lados de un denominador que se anula?**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+Porque el denominador puede tener signos diferentes a cada lado. En ese caso, un mismo numerador produce infinitos de signo opuesto y el límite bilateral no existe.
+
+</details>

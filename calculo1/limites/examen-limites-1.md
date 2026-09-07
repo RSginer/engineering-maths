@@ -151,6 +151,68 @@ Justifica tu respuesta.
 
 ---
 
+## Pistas opcionales
+
+Abre una pista solo después de haber intentado el ejercicio. Las pistas indican el siguiente paso, pero no contienen el desarrollo completo.
+
+<details>
+<summary>Pista del Ejercicio 1</summary>
+
+Es un polinomio. Comprueba si puedes usar continuidad y sustitución directa.
+
+</details>
+
+<details>
+<summary>Pista del Ejercicio 2</summary>
+
+Reconoce $x^2-9$ como una diferencia de cuadrados y conserva la restricción $x\ne3$ al simplificar.
+
+</details>
+
+<details>
+<summary>Pista del Ejercicio 3</summary>
+
+El numerador se aproxima a un número positivo. Estudia el signo de $x+1$ a cada lado de $-1$.
+
+</details>
+
+<details>
+<summary>Pista del Ejercicio 4</summary>
+
+Numerador y denominador tienen el mismo grado. Divide todos los términos entre $x^2$.
+
+</details>
+
+<details>
+<summary>Pista del Ejercicio 5</summary>
+
+El denominador tiene mayor grado. Divide numerador y denominador entre $x^2$ y observa qué términos tienden a cero.
+
+</details>
+
+<details>
+<summary>Pista del Ejercicio 6</summary>
+
+Prueba el signo de $x-2$ con un valor menor que $2$ y otro mayor que $2$.
+
+</details>
+
+<details>
+<summary>Pista del Ejercicio 7</summary>
+
+Escribe $\tan x=\sin x/\cos x$ y recuerda los signos del coseno en los cuadrantes primero y segundo.
+
+</details>
+
+<details>
+<summary>Pista del Ejercicio 8</summary>
+
+Compara qué información aporta el comportamiento alrededor de $a$ con la que aporta el valor aislado $f(a)$.
+
+</details>
+
+---
+
 # Puntuación
 
 | Ejercicio | Puntos |

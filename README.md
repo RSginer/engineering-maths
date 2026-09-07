@@ -17,6 +17,7 @@ tiempo se irán añadiendo más asignaturas y temas.
   - [examen-limites-1.md](calculo1/limites/examen-limites-1.md) — Examen (8 ejercicios, 10 puntos)
   - [soluciones-examen-limites-1.md](calculo1/limites/soluciones-examen-limites-1.md) — Soluciones resueltas paso a paso
   - [teoria-limites.md](calculo1/limites/teoria-limites.md) — Teoría necesaria para resolver el examen
+  - [laboratorio-limites.ipynb](calculo1/limites/laboratorio-limites.ipynb) — Exploración numérica opcional con Python
   - [pre-saberes/indice.md](calculo1/limites/pre-saberes/indice.md) — Prerrequisitos matemáticos antes de límites
     - [01-aritmetica.md](calculo1/limites/pre-saberes/01-aritmetica.md)
     - [02-algebra.md](calculo1/limites/pre-saberes/02-algebra.md)

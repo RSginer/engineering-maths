@@ -1,6 +1,7 @@
 # ✅ Soluciones — Examen de Cálculo (Límites)
 
-Intenta cada ejercicio antes de consultar la solución. Al corregirte, comprueba no solo el resultado, sino también si has justificado el método y los signos.
+> [!TIP]
+> Intenta cada ejercicio antes de consultar la solución. Al corregirte, comprueba no solo el resultado, sino también si has justificado el método y los signos.
 
 ---
 
@@ -185,3 +186,16 @@ No es necesario que $f(a)=L$. De hecho, $f(a)$ puede ser distinto de $L$ o inclu
 - Escribir solo $\infty$ sin estudiar el signo y los dos laterales.
 - Confundir $f(a)$ con $\lim_{x\to a}f(x)$.
 - Aplicar la regla de los grados sin identificar primero el grado y el coeficiente principal.
+
+## Resumen de corrección
+
+| Ejercicio | Idea decisiva | Resultado |
+|---|---|---:|
+| 1 | Continuidad y sustitución directa | $6$ |
+| 2 | Factorizar una diferencia de cuadrados | $6$ |
+| 3 | Estudiar los dos signos laterales | No existe; $-\infty$ y $+\infty$ |
+| 4 | Cociente de coeficientes principales | $2$ |
+| 5 | El denominador tiene mayor grado | $0$ |
+| 6 | Signo de $x-2$ a cada lado | No existe; asíntota $x=2$ |
+| 7 | Signo del coseno a cada lado de $\pi/2$ | No existe; asíntota $x=\pi/2$ |
+| 8 | El límite estudia el entorno | No exige que $f(a)=L$ |

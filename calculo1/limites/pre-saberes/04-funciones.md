@@ -113,6 +113,9 @@ $$
 
 Es una fracción donde arriba y abajo hay polinomios. Su característica más importante para nosotros: **no existe donde el denominador $Q(x)$ se hace 0**. En esos puntos puede aparecer una asíntota vertical o un agujero removible; para distinguirlos hay que simplificar y estudiar el límite.
 
+> [!WARNING]
+> Que $Q(a)=0$ solo indica que la función no está definida en $a$. No permite concluir por sí solo que exista una asíntota vertical: también podría quedar un agujero tras simplificar.
+
 Ejemplo: $f(x)=\dfrac{1}{x-2}$ no existe en $x=2$.
 
 ![Función racional f(x)=1/(x-2)](img/racional.png)
@@ -208,3 +211,38 @@ es la clave para entender por qué existen las asíntotas verticales y los lími
 ## 🧠 Por qué importa esto para los límites
 
 Los límites estudian el comportamiento de una función **cerca** de un punto, especialmente en los puntos donde la función "se rompe" (denominador 0). Si no entiendes qué es una función, su dominio, y cómo se comportan las funciones racionales, es difícil entender por qué aparecen indeterminaciones o asíntotas.
+
+---
+
+## Comprueba lo aprendido
+
+**1. Determina el dominio de $f(x)=1/(x+4)$.**
+
+<details>
+<summary>Comprobar resultado</summary>
+
+El denominador se anula cuando $x=-4$. Por tanto:
+
+$$
+\operatorname{Dom}(f)=\mathbb{R}\setminus\{-4\}.
+$$
+
+</details>
+
+**2. Determina el dominio de $g(x)=\sqrt{5-x}$.**
+
+<details>
+<summary>Ver solución razonada</summary>
+
+El radicando debe ser no negativo: $5-x\ge0$, es decir, $x\le5$. Por tanto, $\operatorname{Dom}(g)=(-\infty,5]$.
+
+</details>
+
+**3. Si una función tiene dos reglas diferentes para una misma entrada, ¿es una función?**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+No, si esas reglas producen dos salidas distintas para la misma entrada. Una función debe asignar exactamente una salida a cada elemento de su dominio.
+
+</details>

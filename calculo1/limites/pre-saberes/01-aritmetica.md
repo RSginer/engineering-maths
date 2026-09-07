@@ -122,7 +122,8 @@ $$
 
 Ejemplo: $\sqrt{4\times9}=\sqrt{4}\times\sqrt{9}=2\times3=6$ (y en efecto, $\sqrt{36}=6$) ✅
 
-**Cuidado:** $\sqrt{a+b}$ no es, en general, $\sqrt a+\sqrt b$. Las raíces se separan en productos bajo las condiciones anteriores, no en sumas.
+> [!WARNING]
+> $\sqrt{a+b}$ no es, en general, $\sqrt a+\sqrt b$. Las raíces se separan en productos bajo las condiciones anteriores, no en sumas.
 
 ### Racionalizar un denominador
 
@@ -161,3 +162,46 @@ $$
 ## 🧠 Por qué importa esto para los límites
 
 Cuando calculamos un límite, constantemente vamos a **sustituir números**, **simplificar fracciones** y **operar con potencias**. Si estas bases no están firmes, es muy fácil equivocarse en un paso sencillo y que todo el ejercicio salga mal, aunque hayas entendido la idea del límite perfectamente.
+
+---
+
+## Comprueba lo aprendido
+
+**1. Calcula $\dfrac{1}{6}+\dfrac{1}{4}$.**
+
+<details>
+<summary>Comprobar resultado</summary>
+
+El mínimo común múltiplo de $6$ y $4$ es $12$:
+
+$$
+\frac{1}{6}+\frac{1}{4}=\frac{2}{12}+\frac{3}{12}=\frac{5}{12}.
+$$
+
+</details>
+
+**2. Calcula $\left(\dfrac{1}{2}\right)^{-2}$.**
+
+<details>
+<summary>Comprobar resultado</summary>
+
+El exponente negativo invierte la base:
+
+$$
+\left(\frac{1}{2}\right)^{-2}=2^2=4.
+$$
+
+</details>
+
+**3. Aplica la jerarquía de operaciones a $6-2(1+2)^2/3$.**
+
+<details>
+<summary>Ver solución razonada</summary>
+
+Primero el paréntesis, después la potencia y finalmente multiplicación y división:
+
+$$
+6-\frac{2(1+2)^2}{3}=6-\frac{2\cdot9}{3}=6-6=0.
+$$
+
+</details>

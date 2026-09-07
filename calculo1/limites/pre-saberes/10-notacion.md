@@ -68,6 +68,9 @@ $$
 
 **Significa:** al sustituir directamente, tanto el numerador como el denominador dan 0. Esto **no** significa que el límite sea 0 ni que no exista — significa que hay que **investigar más** (normalmente factorizando o racionalizando) para encontrar el valor real del límite.
 
+> [!WARNING]
+> No escribas $\lim f(x)=0/0$. La forma $0/0$ describe lo que ocurre al sustituir y obliga a transformar la expresión; nunca es el resultado final.
+
 ---
 
 ## $\infty/\infty$
@@ -132,3 +135,38 @@ Esto en realidad son **dos fórmulas en una**: una con $+$ y otra con $-$.
 ## 🧠 Por qué importa esto para los límites
 
 Si no reconoces estos símbolos al instante, cada ejercicio se convierte en un puzzle de "descifrar el enunciado" antes de poder resolver nada. Memorizar esta tabla te permite leer cualquier ejercicio de límites y saber inmediatamente qué te están pidiendo.
+
+---
+
+## Comprueba lo aprendido
+
+**1. Traduce $x\to4^-$ a lenguaje cotidiano.**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+$x$ toma valores menores que $4$ y cada vez más próximos a $4$.
+
+</details>
+
+**2. ¿Qué dos igualdades laterales permiten afirmar que $\lim_{x\to a}f(x)=L$?**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+$$
+\lim_{x\to a^-}f(x)=L
+\quad\text{y}\quad
+\lim_{x\to a^+}f(x)=L.
+$$
+
+</details>
+
+**3. ¿Qué diferencia hay entre $f(a)$ y $\lim_{x\to a}f(x)$?**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+$f(a)$ es el valor en el punto exacto. El límite describe los valores de la función alrededor de $a$; ambos pueden coincidir, ser distintos o puede no existir uno de ellos.
+
+</details>

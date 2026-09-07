@@ -14,6 +14,9 @@ La idea de "dibujar sin levantar el lápiz" ayuda a imaginar la continuidad, per
 
 Si falla cualquiera de las tres, la función es discontinua en $a$.
 
+> [!IMPORTANT]
+> Para demostrar continuidad en $a$ hay que comprobar las tres condiciones. Que el límite exista no basta si $f(a)$ no existe o tiene otro valor.
+
 ### Ejemplos mentales
 
 - La gráfica de una recta ($f(x)=2x+1$): la puedes dibujar de un tirón, sin levantar el lápiz. Es continua en todos los puntos.
@@ -69,6 +72,12 @@ vemos que, muy cerca de $x=3$, la función se comporta exactamente como la recta
 
 Esto ilustra que **el límite habla de los alrededores de un punto, no del punto en sí**. La discontinuidad es **removible**: bastaría definir $f(3)=6$ para rellenar el agujero y hacer continua la función en $3$.
 
+| Tipo de discontinuidad | Qué ocurre cerca del punto | ¿Puede repararse definiendo un solo valor? |
+|---|---|---|
+| Removible | El límite existe, pero falta $f(a)$ o tiene otro valor | Sí |
+| De salto | Los límites laterales son finitos pero distintos | No |
+| Infinita | Algún límite lateral es infinito | No |
+
 ![Diferencia entre el valor aislado f(3) y el límite](../animaciones/AcercamientoAlLimite.gif)
 
 ---
@@ -76,3 +85,34 @@ Esto ilustra que **el límite habla de los alrededores de un punto, no del punto
 ## 🧠 Por qué importa esto para los límites
 
 Entender la continuidad te permite decidir, en cuestión de segundos, **si puedes sustituir directamente** (cuando la función es continua ahí, como en el Ejercicio 1) o si **tienes que investigar más** (cuando hay una discontinuidad, como en los Ejercicios 2, 3, 6 y 7). También te ayuda a entender por qué el límite puede existir en un punto aunque la función no esté definida ahí (Ejercicio 8).
+
+---
+
+## Comprueba lo aprendido
+
+**1. ¿Es continua $f(x)=x^2+1$ en $x=3$?**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+Sí. Es un polinomio y, por tanto, es continuo en todo número real. Además, $\lim_{x\to3}f(x)=f(3)=10$.
+
+</details>
+
+**2. Si $\lim_{x\to a}f(x)=5$ pero $f(a)=2$, ¿es continua en $a$?**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+No. Existen el límite y el valor de la función, pero no coinciden. Es una discontinuidad removible: redefinir $f(a)=5$ la repararía.
+
+</details>
+
+**3. Si los límites laterales valen $2$ y $7$, ¿existe el límite bilateral?**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+No. Para que exista el límite bilateral, ambos límites laterales deben existir y ser iguales.
+
+</details>

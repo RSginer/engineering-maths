@@ -44,7 +44,17 @@ no basta con multiplicar por la misma raíz. Aquí usamos el **conjugado**: la m
 
 - El conjugado de $\sqrt{x}-\sqrt{a}$ es $\sqrt{x}+\sqrt{a}$.
 
+| Expresión | Conjugado |
+|---|---|
+| $\sqrt{x}-\sqrt{a}$ | $\sqrt{x}+\sqrt{a}$ |
+| $\sqrt{x}+\sqrt{a}$ | $\sqrt{x}-\sqrt{a}$ |
+| $u-v$ | $u+v$ |
+| $u+v$ | $u-v$ |
+
 ¿Por qué usamos el conjugado? Porque al multiplicar una resta por su "suma gemela", usamos el producto notable que ya conocemos:
+
+> [!IMPORTANT]
+> Multiplica por el conjugado dividido entre sí mismo. Así multiplicas por $1$: cambia la forma de la expresión, pero no su valor.
 
 $$
 (a-b)(a+b)=a^2-b^2
@@ -89,3 +99,48 @@ Ya no queda ninguna raíz abajo. ✅
 ## 🧠 Por qué importa esto para los límites
 
 A veces, al calcular un límite con raíces, sustituir directamente da la indeterminación $0/0$, pero **no se puede factorizar** porque hay una raíz de por medio. En esos casos, la solución es **racionalizar** (multiplicar por el conjugado) para poder simplificar el factor que causa el problema y así resolver el límite.
+
+---
+
+## Comprueba lo aprendido
+
+**1. ¿Cuál es el conjugado de $\sqrt{x}+4$?**
+
+<details>
+<summary>Comprobar respuesta</summary>
+
+Es $\sqrt{x}-4$: se conservan los términos y se cambia el signo que los separa.
+
+</details>
+
+**2. Racionaliza $\dfrac{1}{\sqrt7+\sqrt5}$.**
+
+<details>
+<summary>Ver solución razonada</summary>
+
+Multiplicamos por el conjugado $\sqrt7-\sqrt5$:
+
+$$
+\frac{1}{\sqrt7+\sqrt5}\cdot\frac{\sqrt7-\sqrt5}{\sqrt7-\sqrt5}
+=\frac{\sqrt7-\sqrt5}{7-5}
+=\frac{\sqrt7-\sqrt5}{2}.
+$$
+
+</details>
+
+**3. Calcula $\displaystyle\lim_{x\to4}\dfrac{\sqrt{x}-2}{x-4}$.**
+
+<details>
+<summary>Ver solución razonada</summary>
+
+Al sustituir aparece $0/0$. Multiplicamos por el conjugado del numerador:
+
+$$
+\frac{\sqrt{x}-2}{x-4}\cdot\frac{\sqrt{x}+2}{\sqrt{x}+2}
+=\frac{x-4}{(x-4)(\sqrt{x}+2)}
+=\frac{1}{\sqrt{x}+2}, \qquad x\ne4.
+$$
+
+Ahora sustituimos en la expresión simplificada y obtenemos $1/(2+2)=1/4$.
+
+</details>
