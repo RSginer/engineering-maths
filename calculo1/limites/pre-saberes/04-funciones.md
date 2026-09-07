@@ -28,7 +28,7 @@ Lo importante de una función es que **a cada entrada le corresponde una única 
 
 De forma más formal, esto se escribe así:
 
-- Dominio: $\text{Dom}(f) = \{x \in \mathbb{R} : \exists f(x)\}$ ("los números para los que existe $f(x)$")
+- Dominio: $\text{Dom}(f) = \{x \in \mathbb{R} : f(x)\text{ está definida}\}$
 - Imagen: $\text{Im}(f) = \{y \in \mathbb{R} : \exists x \in \text{Dom}(f), f(x)=y\}$ ("los resultados que se obtienen")
 - Gráfica: $\text{Graf}(f) = \{(x, f(x)) : x \in \text{Dom}(f)\}$ (todos los puntos $(x,y)$ que se pueden dibujar)
 
@@ -65,13 +65,13 @@ Ejemplo: el dominio de $f(x)=\sqrt{x}$ se escribe $\text{Dom}(f)=[0,+\infty)$ (i
 
 ## Tipos de funciones básicas
 
-### 1. Función lineal
+### 1. Función afín (recta)
 
 $$
 f(x)=mx+n
 $$
 
-Su gráfica es siempre una **línea recta**. $m$ es la pendiente (cuánto sube o baja la recta) y $n$ es donde corta al eje vertical.
+Su gráfica es siempre una **línea recta**. $m$ es la pendiente (cuánto cambia $f(x)$ cuando $x$ aumenta una unidad) y $n$ es la ordenada en el origen, es decir, donde corta al eje vertical. Estrictamente, si $n=0$ se llama función lineal; en muchos cursos se usa "lineal" para toda expresión $mx+n$.
 
 Ejemplo: $f(x)=2x+1$
 
@@ -111,7 +111,7 @@ $$
 f(x)=\frac{P(x)}{Q(x)}
 $$
 
-Es una fracción donde arriba y abajo hay polinomios. Su característica más importante para nosotros: **no existe donde el denominador $Q(x)$ se hace 0**. Ahí es donde suelen aparecer las asíntotas verticales.
+Es una fracción donde arriba y abajo hay polinomios. Su característica más importante para nosotros: **no existe donde el denominador $Q(x)$ se hace 0**. En esos puntos puede aparecer una asíntota vertical o un agujero removible; para distinguirlos hay que simplificar y estudiar el límite.
 
 Ejemplo: $f(x)=\dfrac{1}{x-2}$ no existe en $x=2$.
 
@@ -157,7 +157,7 @@ x & \text{si } x\ge0 \\
 \end{cases}
 $$
 
-El valor absoluto siempre **quita el signo negativo**: convierte cualquier número en su versión positiva (o deja el 0 como está). Su gráfica tiene forma de "V", con un pico en $x=0$.
+El valor absoluto representa la distancia de un número a $0$; por eso nunca es negativo. Su gráfica tiene forma de "V", con vértice en $x=0$.
 
 Propiedades útiles:
 
@@ -170,21 +170,25 @@ Propiedades útiles:
 
 ### 7. Función exponencial
 
+El ejemplo básico es
+
 $$
-f(x)=a\cdot e^{bx}
+f(x)=e^x.
 $$
 
-Su característica más importante: **siempre da resultados positivos** (nunca toca ni cruza el eje horizontal), y crece (o decrece) muy rápidamente. Su dominio es todo $\mathbb{R}$, pero su imagen es solo los positivos: $\text{Im}(f)=(0,+\infty)$.
+Siempre es positiva, es creciente, su dominio es $\mathbb{R}$ y su imagen es $(0,+\infty)$. En la forma más general $f(x)=a e^{bx}$, estas propiedades dependen de los signos de $a$ y $b$; la afirmación "siempre positiva" exige $a>0$.
 
 ![Función exponencial f(x)=eˣ](img/exponencial.png)
 
 ### 8. Función logarítmica
 
+El ejemplo básico es
+
 $$
-f(x)=a\cdot\ln(x)
+f(x)=\ln(x).
 $$
 
-Es la función **inversa** de la exponencial ("deshace" lo que hace la exponencial). Solo existe para $x>0$ (no se puede calcular el logaritmo de 0 ni de un número negativo), así que $\text{Dom}(f)=(0,+\infty)$, pero su imagen sí es todo $\mathbb{R}$.
+Es la función **inversa** de $e^x$: $\ln(e^x)=x$ y $e^{\ln x}=x$ para $x>0$. Solo existe para $x>0$, así que $\text{Dom}(f)=(0,+\infty)$, mientras que su imagen es todo $\mathbb{R}$.
 
 ![Función logarítmica f(x)=ln(x)](img/logaritmo.png)
 

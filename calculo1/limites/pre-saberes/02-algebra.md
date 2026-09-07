@@ -36,7 +36,7 @@ Una ecuación es una igualdad con una incógnita ($x$) que hay que despejar, es 
 
 **Ejemplo:** $2x+3=11$
 
-Pasos (lo que hagas en un lado, lo deshaces pasando al otro lado con la operación contraria):
+Pasos: para conservar la igualdad, hacemos **la misma operación en ambos miembros**.
 
 1. Restamos 3 en los dos lados: $2x=11-3=8$
 2. Dividimos entre 2 en los dos lados: $x=\dfrac{8}{2}=4$
@@ -145,6 +145,18 @@ $$
 Si sabes que $x=a$ es una solución del polinomio (es decir, si sustituyes $x=a$ el polinomio da 0), entonces $(x-a)$ es un factor. Puedes dividir el polinomio entre $(x-a)$ usando Ruffini para sacar el resto de factores.
 
 **Idea clave:** si $P(a)=0$, entonces $P(x) = (x-a)\cdot Q(x)$ para algún polinomio $Q(x)$ más pequeño.
+
+### Cancelar correctamente
+
+Solo se pueden cancelar **factores que multiplican** a todo el numerador y a todo el denominador. No se pueden cancelar términos dentro de una suma. Por ejemplo:
+
+$$
+\frac{(x-3)(x+3)}{x-3}=x+3 \quad (x\ne3),
+$$
+
+pero en $\dfrac{x+3}{x}$ no se pueden "tachar las $x$". Además, al simplificar hay que conservar la restricción $x\ne3$: la expresión simplificada coincide con la original cerca de $3$, pero la original sigue sin estar definida en ese punto.
+
+![Factorización, cancelación y agujero en x=3](../animaciones/FactorizacionYAgujero.gif)
 
 ---
 

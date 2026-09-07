@@ -1,6 +1,6 @@
 # 7️⃣ Trigonometría básica (explicado paso a paso)
 
-La trigonometría estudia los ángulos y los triángulos, y aquí vamos a centrarnos en lo mínimo necesario para entender el límite de la tangente.
+La trigonometría estudia los ángulos y sus relaciones. Aquí nos centraremos en lo necesario para entender el límite de la tangente. En cálculo los ángulos se expresan normalmente en **radianes**: $\pi$ radianes equivalen a $180^\circ$.
 
 ---
 
@@ -36,12 +36,12 @@ Esta identidad es muy útil para simplificar expresiones trigonométricas y para
 Además de seno, coseno y tangente, existen sus "inversas multiplicativas" (uno dividido entre cada una):
 
 $$
-\csc(x)=\frac{1}{\sin(x)} \qquad \sec(x)=\frac{1}{\cos(x)} \qquad \cot(x)=\frac{1}{\tan(x)}
+\csc(x)=\frac{1}{\sin(x)} \qquad \sec(x)=\frac{1}{\cos(x)} \qquad \cot(x)=\frac{\cos(x)}{\sin(x)}
 $$
 
 - **Cosecante** ($\csc$): no existe donde $\sin(x)=0$ (en $0$, $\pi$, $2\pi$...).
 - **Secante** ($\sec$): no existe donde $\cos(x)=0$ (en $\pi/2$, $3\pi/2$...) — igual que la tangente.
-- **Cotangente** ($\cot$): no existe donde $\tan(x)=0$, es decir donde $\sin(x)=0$.
+- **Cotangente** ($\cot$): no existe donde $\sin(x)=0$. Donde ambas expresiones están definidas, también se cumple $\cot(x)=1/\tan(x)$.
 
 Fíjate que todas siguen la misma lógica que ya conocemos: son fracciones, y **no existen donde su denominador se anula**.
 
@@ -95,14 +95,16 @@ Vamos a ver qué pasa un poquito antes y un poquito después de $\pi/2$:
 - **Un poco antes** de $\pi/2$ (todavía en el 1er cuadrante, ej. $89°$):
   - $\sin x$ es positivo (cercano a 1)
   - $\cos x$ es positivo pero muy pequeño (cercano a $0^+$)
-  - $\tan x = \dfrac{\sin x}{\cos x} \to \dfrac{1}{0^+} = +\infty$
+  - $\tan x = \dfrac{\sin x}{\cos x}\to+\infty$
 
 - **Un poco después** de $\pi/2$ (ya en el 2º cuadrante, ej. $91°$):
   - $\sin x$ sigue siendo positivo (cercano a 1)
   - $\cos x$ ahora es negativo pero muy pequeño (cercano a $0^-$)
-  - $\tan x = \dfrac{\sin x}{\cos x} \to \dfrac{1}{0^-} = -\infty$
+  - $\tan x = \dfrac{\sin x}{\cos x}\to-\infty$
 
 Como el resultado por la izquierda ($+\infty$) es distinto al de la derecha ($-\infty$), el límite **no existe** en $\pi/2$.
+
+![El círculo unidad y la tangente al acercarse a pi medios](../animaciones/TangenteCercaDePiMedios.gif)
 
 ---
 

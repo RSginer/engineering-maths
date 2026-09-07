@@ -1,6 +1,6 @@
 # 3️⃣ Racionalización (explicado paso a paso)
 
-Racionalizar significa **quitar las raíces del denominador** de una fracción (la parte de abajo). A los matemáticos no les gusta dejar raíces abajo, así que hay un truco para eliminarlas.
+Racionalizar significa transformar una fracción para que su denominador no contenga raíces. La nueva expresión tiene el mismo valor, pero suele ser más fácil de simplificar y, en límites, puede revelar el factor que produce una indeterminación.
 
 ---
 
@@ -12,7 +12,7 @@ $$
 \frac{1}{\sqrt{2}}
 $$
 
-es totalmente válida, pero se prefiere escribirla sin raíz abajo. Vamos a ver cómo se hace.
+es totalmente válida. Sin embargo, una forma equivalente sin raíz en el denominador facilita algunas operaciones. Vamos a ver cómo se obtiene.
 
 ---
 
@@ -56,7 +56,7 @@ $$
 \frac{1}{\sqrt{x}-\sqrt{a}}\times\frac{\sqrt{x}+\sqrt{a}}{\sqrt{x}+\sqrt{a}} = \frac{\sqrt{x}+\sqrt{a}}{(\sqrt{x})^2-(\sqrt{a})^2}=\frac{\sqrt{x}+\sqrt{a}}{x-a}
 $$
 
-Fíjate: las raíces han pasado del denominador al numerador, y abajo ha quedado una resta sin raíces ($x-a$).
+Fíjate: las raíces han pasado del denominador al numerador, y abajo ha quedado una resta sin raíces ($x-a$). Esta igualdad se usa donde las expresiones están definidas; en particular, el denominador original no puede valer cero.
 
 ---
 

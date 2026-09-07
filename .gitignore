@@ -1,1 +1,5 @@
 *-apuntes.pdf
+.DS_Store
+.venv/
+.manim-media/
+__pycache__/

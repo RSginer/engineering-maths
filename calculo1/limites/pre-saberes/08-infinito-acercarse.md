@@ -22,7 +22,7 @@ no estamos preguntando "¿qué pasa cuando $x$ es infinito?" (eso no tiene senti
 
 ## La idea de "acercarse a" un valor
 
-Cuando escribimos $x\to a$ ($x$ tiende a $a$), queremos decir que $x$ toma valores **cada vez más cercanos** a $a$, pero **sin llegar a valer exactamente $a$**.
+Cuando escribimos $x\to a$ ($x$ tiende a $a$), estudiamos qué ocurre para valores de $x$ **cada vez más cercanos** a $a$. El valor exacto $x=a$ se deja fuera del análisis: puede estar definido o no, pero no determina el límite.
 
 ### Ejemplo con números concretos
 
@@ -38,7 +38,7 @@ $$
 4 \to 3.1 \to 3.01 \to 3.001 \to 3.0001 \to \dots
 $$
 
-En ningún momento $x$ vale exactamente 3, pero cada vez está más cerca.
+La distancia $|x-3|$ se hace cada vez menor. Eso es lo importante; el valor que tenga la función justo en $x=3$ se estudia aparte.
 
 - Si $x$ se acerca desde números **menores** que $a$, escribimos $x\to a^-$.
 - Si $x$ se acerca desde números **mayores** que $a$, escribimos $x\to a^+$.
@@ -55,13 +55,7 @@ Si tiende a $0^-$, se hace cada vez más pequeña en valor absoluto pero manteni
 
 ## ¿Qué pasa si divides un número entre algo que tiende a 0?
 
-Esta es la clave para entender los límites infinitos. Piensa en repartir una pizza entre cada vez **menos** gente:
-
-- Repartir 1 pizza entre 2 personas → cada uno recibe $1/2$
-- Repartir 1 pizza entre 10 personas → cada uno recibe $1/10$
-- Repartir 1 pizza entre 1000 personas → cada uno recibe $1/1000$
-
-Ahora al revés: si divides 1 pizza entre **muy poca gente** (una fracción de persona, algo que tiende a 0):
+Esta es la clave para entender los límites infinitos. Observa qué ocurre con $1/t$ cuando $t$ es positivo y se acerca a cero:
 
 - $1\div0.1=10$
 - $1\div0.01=100$
@@ -85,6 +79,10 @@ $$
 \frac{1}{0^-}\to-\infty
 $$
 
+Las expresiones $1/0^+$ y $1/0^-$ son abreviaturas para describir un proceso; no son divisiones reales entre cero.
+
+![Valores de x acercándose a 3 mientras la función se acerca a 6](../animaciones/AcercamientoAlLimite.gif)
+
 ---
 
 ## Resumen visual
@@ -102,4 +100,4 @@ $$
 
 ## 🧠 Por qué importa esto para los límites
 
-Todo el examen gira en torno a estas dos ideas: **acercarse sin llegar** y **crecer sin límite**. Si entiendes bien estas dos ideas con ejemplos numéricos sencillos como los de arriba, entenderás *por qué* funcionan todas las reglas de los límites, en lugar de memorizarlas sin más.
+Todo el examen gira en torno a estas dos ideas: **analizar valores arbitrariamente cercanos** y **crecer sin límite**. Si entiendes bien estas dos ideas con los ejemplos numéricos anteriores, comprenderás *por qué* funcionan las reglas de los límites en lugar de memorizarlas sin más.

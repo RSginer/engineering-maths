@@ -6,7 +6,13 @@ La continuidad es una idea muy visual e intuitiva. Vamos a construirla con dibuj
 
 ## La idea del lápiz
 
-Una función es **continua** en un tramo si puedes dibujar su gráfica **sin levantar el lápiz del papel**. Si en algún punto tienes que levantar el lápiz (porque hay un salto, un agujero, o la línea se va disparada hacia arriba o hacia abajo), la función **no es continua** ahí.
+La idea de "dibujar sin levantar el lápiz" ayuda a imaginar la continuidad, pero no es una definición matemática y puede fallar en gráficas complicadas. En un punto $a$, una función es continua cuando se cumplen **las tres condiciones** siguientes:
+
+1. Existe $f(a)$.
+2. Existe $\lim_{x\to a}f(x)$; por tanto, los dos límites laterales coinciden.
+3. Ambos valores son iguales: $\lim_{x\to a}f(x)=f(a)$.
+
+Si falla cualquiera de las tres, la función es discontinua en $a$.
 
 ### Ejemplos mentales
 
@@ -61,7 +67,9 @@ $$
 
 vemos que, muy cerca de $x=3$, la función se comporta exactamente como la recta $x+3$, que en $x=3$ valdría 6. Es decir: **el límite existe y vale 6**, aunque la función no esté definida en $x=3$ (solo hay un "agujerito" en ese único punto, pero alrededor todo funciona perfectamente).
 
-Esto es precisamente lo que ilustra que **el límite habla de los alrededores de un punto, no del punto en sí**.
+Esto ilustra que **el límite habla de los alrededores de un punto, no del punto en sí**. La discontinuidad es **removible**: bastaría definir $f(3)=6$ para rellenar el agujero y hacer continua la función en $3$.
+
+![Diferencia entre el valor aislado f(3) y el límite](../animaciones/AcercamientoAlLimite.gif)
 
 ---
 

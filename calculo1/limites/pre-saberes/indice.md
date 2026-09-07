@@ -8,8 +8,8 @@ Antes de entender bien la teoría de límites hace falta tener soltura con una s
 
 - **Fracciones:** sumar, restar, multiplicar, dividir, simplificar.
 - **Signos:** reglas de multiplicación/división de positivos y negativos ($+\cdot+=+$, $+\cdot-=-$, $-\cdot-=+$).
-- **Potencias:** $a^n$, $a^0=1$, $a^{-n}=\dfrac{1}{a^n}$, $a^{m/n}=\sqrt[n]{a^m}$.
-- **Raíces:** propiedades $\sqrt{a\cdot b}=\sqrt{a}\cdot\sqrt{b}$, racionalización de denominadores.
+- **Potencias:** $a^n$, $a^0=1$ para $a\ne0$, $a^{-n}=\dfrac{1}{a^n}$, $a^{m/n}=\sqrt[n]{a^m}$ cuando la expresión está definida en $\mathbb R$.
+- **Raíces:** propiedades como $\sqrt{ab}=\sqrt a\sqrt b$ para $a,b\ge0$ y racionalización de denominadores.
 - **Jerarquía de operaciones:** paréntesis → potencias/raíces → multiplicación/división → suma/resta.
 
 Sin esto, cualquier manipulación algebraica posterior (necesaria para resolver indeterminaciones) se vuelve muy difícil.
@@ -56,7 +56,7 @@ $$
   - Función a trozos (reglas distintas según el intervalo de $x$)
   - Función valor absoluto $f(x)=|x|$
   - Función exponencial $f(x)=a\cdot e^{bx}$ y logarítmica $f(x)=a\cdot\ln(x)$
-- **Funciones racionales:** entender que se anulan (no existen) cuando el denominador es 0 — esto es la base de las asíntotas verticales.
+- **Funciones racionales:** entender que no están definidas cuando el denominador es 0 y distinguir si aparece un agujero o una asíntota vertical.
 
 ---
 
@@ -89,7 +89,7 @@ $$
 ## 8. [Concepto de infinito y de "acercarse a"](08-infinito-acercarse.md)
 
 - Entender $\infty$ no como un número, sino como una idea de **crecimiento sin límite**.
-- Entender qué significa que $x$ "se acerque" a un valor $a$ sin llegar a serlo (idea intuitiva de proximidad).
+- Entender qué significa estudiar valores de $x$ cada vez más próximos a $a$, dejando aparte el valor exacto $x=a$.
 - Saber interpretar $\dfrac{1}{0^+} \to +\infty$ y $\dfrac{1}{0^-}\to-\infty$ (número finito dividido entre algo que se acerca a 0).
 
 ---
@@ -132,3 +132,11 @@ $$
 - [ ] Reconozco la notación de intervalos ($[a,b]$, $(a,b)$).
 
 Si todos estos puntos están claros, la teoría de [teoria-limites.md](../teoria-limites.md) se entiende con mucha más facilidad.
+
+## Ruta de estudio recomendada
+
+1. Lee los temas en orden y reproduce los ejemplos sin mirar el desarrollo.
+2. Usa los GIF para relacionar el cálculo simbólico con el movimiento en la gráfica.
+3. Estudia la [teoría de límites](../teoria-limites.md).
+4. Haz el [examen](../examen-limites-1.md) sin consultar apuntes.
+5. Corrige tanto el resultado como la justificación con las [soluciones completas](../soluciones-examen-limites-1.md).

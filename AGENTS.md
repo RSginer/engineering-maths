@@ -103,3 +103,25 @@ pip install matplotlib numpy
 4. View the generated PNG (e.g. with the image-viewing tool) to sanity-check
    the plot before considering the task done.
 
+## Generating explanatory animations with Manim
+
+Use a GIF only when motion clarifies a changing quantity, an approach from two
+sides, or a sequence of algebraic transformations. Keep static definitions and
+single-state graphs as PNGs.
+
+- Generator: [scripts/generate_animations.py](scripts/generate_animations.py)
+- Final output: `calculo1/limites/animaciones/`
+- Intermediate Manim files: `.manim-media/` (ignored by Git)
+
+Install the Python dependencies from `requirements.txt`. On macOS, the Manim
+runtime also needs `cairo`, `pango`, and `ffmpeg` (available through Homebrew).
+Generate every animation with:
+
+```bash
+.venv/bin/python scripts/generate_animations.py
+```
+
+Embed a GIF with a relative path from the Markdown document, add descriptive
+alternative text, and reuse an animation when it explains the same concept in
+several documents. Before finishing, inspect frames from the beginning, middle,
+and end to catch clipped labels, overlap, or points leaving the axes.

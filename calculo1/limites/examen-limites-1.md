@@ -4,6 +4,8 @@
 **Puntuación:** 10 puntos  
 **Calculadora:** Intenta hacerlo sin calculadora.
 
+Antes de empezar, puedes repasar la [teoría de límites](teoria-limites.md). Durante el examen, escribe el procedimiento: una respuesta correcta sin justificar puede no recibir toda la puntuación.
+
 ---
 
 ## Ejercicio 1 — Cálculo directo [1 punto]
@@ -123,7 +125,7 @@ $$
 \lim_{x\to\frac{\pi}{2}^+}\tan(x)
 $$
 
-¿Existe?
+Determina si existe:
 
 $$
 \lim_{x\to\frac{\pi}{2}}\tan(x)
@@ -162,3 +164,5 @@ Justifica tu respuesta.
 | 7 | 1 |
 | 8 | 1 |
 | **Total** | **10** |
+
+Cuando termines, compara tu procedimiento con las [soluciones razonadas](soluciones-examen-limites-1.md).

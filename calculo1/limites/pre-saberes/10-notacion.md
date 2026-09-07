@@ -8,7 +8,7 @@ Las matemáticas usan símbolos para escribir ideas de forma corta. Aquí vamos 
 
 **Se lee:** "el límite de $f(x)$ cuando $x$ tiende a $a$".
 
-**Significa:** el valor al que se acerca $f(x)$ cuando $x$ se acerca cada vez más a $a$ (sin llegar a valer exactamente $a$).
+**Significa:** el valor al que se acerca $f(x)$ cuando $x$ toma valores cada vez más próximos a $a$. El valor exacto $f(a)$ no interviene en esta pregunta.
 
 **Ejemplo:** $\lim_{x\to2}(3x^2-5x+4)$ pregunta: ¿a qué valor se acerca $3x^2-5x+4$ cuando $x$ se acerca a 2?
 
@@ -27,6 +27,14 @@ Las matemáticas usan símbolos para escribir ideas de forma corta. Aquí vamos 
 **Se lee:** "$x$ tiende a $a$ por la derecha".
 
 **Significa:** $x$ se acerca a $a$ tomando valores **mayores** que $a$ (por ejemplo, si $a=2$: 2.1, 2.01, 2.001...).
+
+El límite bilateral existe y vale $L$ exactamente cuando ambos laterales existen y coinciden:
+
+$$
+\lim_{x\to a}f(x)=L
+\iff
+\lim_{x\to a^-}f(x)=\lim_{x\to a^+}f(x)=L.
+$$
 
 ---
 
@@ -86,7 +94,7 @@ Se usa muchísimo para describir dominios e imágenes de funciones, por ejemplo 
 
 ## $+\infty$ y $-\infty$ como resultado de un límite
 
-**Significa:** el resultado de la función crece ($+\infty$) o decrece ($-\infty$) sin parar a medida que $x$ se acerca al punto en cuestión. **No es un número**, es una forma de decir "no existe un límite finito, y además la función se dispara hacia arriba/abajo".
+**Significa:** los valores de la función crecen sin cota superior ($+\infty$) o disminuyen sin cota inferior ($-\infty$) a medida que $x$ se acerca al punto en cuestión. **No son números reales** ni valores que la función llegue a alcanzar.
 
 ---
 

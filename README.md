@@ -1,8 +1,9 @@
 # Matemáticas para Ingeniería Informática
 
 Repositorio con material de estudio de matemáticas para Ingeniería Informática:
-exámenes, soluciones paso a paso, teoría y prerrequisitos, con gráficas
-generadas automáticamente para ilustrar cada función.
+exámenes, soluciones paso a paso, teoría y prerrequisitos. Las gráficas
+estáticas y las animaciones con Manim conectan el cálculo simbólico con el
+comportamiento visual de las funciones.
 
 El repositorio va creciendo por bloques temáticos (asignaturas/temas). Por
 ahora contiene **Cálculo I**, empezando por el tema de **Límites**; con el
@@ -34,3 +35,22 @@ Este repo sigue una serie de convenciones (notación matemática en Markdown,
 cómo generar gráficas, etc.) documentadas para agentes de IA en
 [AGENTS.md](AGENTS.md) (también válido para Claude Code vía [CLAUDE.md](CLAUDE.md)).
 Si vas a editar o añadir contenido, revisa ese archivo primero.
+
+## Regenerar el material visual
+
+Las dependencias de Python están en `requirements.txt`. En macOS, Manim necesita además Cairo, Pango y FFmpeg:
+
+```bash
+brew install cairo pango ffmpeg
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+```
+
+Después se pueden regenerar por separado las gráficas y las animaciones:
+
+```bash
+.venv/bin/python scripts/generate_graphs.py
+.venv/bin/python scripts/generate_animations.py
+```
+
+Los PNG se guardan en las carpetas `img/` y los GIF en `calculo1/limites/animaciones/`.

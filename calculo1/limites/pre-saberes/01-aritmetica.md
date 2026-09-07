@@ -19,7 +19,7 @@ $$
 \frac{1}{5}+\frac{2}{5}=\frac{1+2}{5}=\frac{3}{5}
 $$
 
-Si los denominadores son distintos, hay que buscar un denominador común (por ejemplo, multiplicando):
+Si los denominadores son distintos, hay que buscar un denominador común. Conviene usar el mínimo común múltiplo; multiplicarlos siempre funciona, aunque no siempre produce el número más pequeño:
 
 $$
 \frac{1}{2}+\frac{1}{3}=\frac{3}{6}+\frac{2}{6}=\frac{5}{6}
@@ -82,7 +82,7 @@ Por ejemplo: $2^3=2\times2\times2=8$
 
 Reglas importantes:
 
-- **Cualquier número elevado a 0 es 1:** $a^0=1$
+- **Cualquier número no nulo elevado a 0 es 1:** $a^0=1$ si $a\ne0$. La expresión $0^0$ no se trata con esta regla.
 - **Exponente negativo** significa "el inverso":
 $$
 a^{-n}=\frac{1}{a^n}
@@ -99,13 +99,13 @@ Ejemplo: $8^{1/3}=\sqrt[3]{8}=2$
 
 ## Las raíces
 
-La raíz cuadrada de un número es "qué número multiplicado por sí mismo da ese resultado".
+La raíz cuadrada principal de un número no negativo es el número **no negativo** que, multiplicado por sí mismo, da ese resultado.
 
 $$
 \sqrt{9}=3 \quad\text{porque}\quad 3\times3=9
 $$
 
-Propiedad útil: puedes separar una raíz de una multiplicación en dos raíces:
+Propiedad útil en los números reales: si $a\ge0$ y $b\ge0$, puedes separar una raíz de una multiplicación en dos raíces:
 
 $$
 \sqrt{a\times b}=\sqrt{a}\times\sqrt{b}
@@ -113,9 +113,11 @@ $$
 
 Ejemplo: $\sqrt{4\times9}=\sqrt{4}\times\sqrt{9}=2\times3=6$ (y en efecto, $\sqrt{36}=6$) ✅
 
+**Cuidado:** $\sqrt{a+b}$ no es, en general, $\sqrt a+\sqrt b$. Las raíces se separan en productos bajo las condiciones anteriores, no en sumas.
+
 ### Racionalizar un denominador
 
-No nos gusta dejar raíces "abajo" en una fracción. Para quitarlas, multiplicamos arriba y abajo por la misma raíz:
+Una forma equivalente sin raíces en el denominador suele ser más cómoda para operar. En este caso, multiplicamos numerador y denominador por la misma raíz:
 
 $$
 \frac{1}{\sqrt{2}}=\frac{1}{\sqrt{2}}\times\frac{\sqrt{2}}{\sqrt{2}}=\frac{\sqrt{2}}{2}

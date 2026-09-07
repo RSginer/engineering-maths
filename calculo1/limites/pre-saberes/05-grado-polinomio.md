@@ -1,6 +1,6 @@
 # 5️⃣ Grado de un polinomio (explicado paso a paso)
 
-El "grado" de un polinomio es simplemente un número que nos dice **qué tan grande** es ese polinomio cuando $x$ se hace muy grande. Vamos a verlo con calma.
+El grado de un polinomio es el mayor exponente de $x$ que tiene coeficiente distinto de cero. Además de clasificar el polinomio, indica qué término domina su crecimiento cuando $|x|$ se hace grande.
 
 ---
 
@@ -18,7 +18,7 @@ Aquí tenemos tres términos: $3x^2$, $-5x$, y $4$.
 
 ## ¿Qué es el grado?
 
-El grado es **el exponente más alto** que aparece en el polinomio.
+El grado es **el exponente más alto cuyo coeficiente no es cero**. El polinomio nulo, $P(x)=0$, es un caso especial y no tiene un grado definido en este nivel.
 
 ### Ejemplos
 
@@ -64,13 +64,17 @@ Si en cambio ambos tuvieran el mismo grado, por ejemplo $4x^2$ arriba y $2x^2$ a
 
 ---
 
-## Resumen de comparación de grados (fracciones de polinomios cuando $x\to\infty$)
+![Comparación dinámica de cocientes cuando x crece](../animaciones/GradosEnElInfinito.gif)
+
+## Resumen de comparación de grados (fracciones de polinomios cuando $x\to+\infty$)
 
 | Situación | Qué pasa | Resultado |
 |---|---|---|
 | Grado arriba = grado abajo | Se "empatan" en velocidad de crecimiento | Cociente de coeficientes principales |
 | Grado arriba < grado abajo | Abajo crece mucho más rápido | 0 |
-| Grado arriba > grado abajo | Arriba crece mucho más rápido | $\pm\infty$ |
+| Grado arriba > grado abajo | Arriba crece mucho más rápido | Infinito con el signo del cociente de coeficientes principales |
+
+Para $x\to-\infty$ también influye si la diferencia de grados es par o impar. Por eso no conviene escribir automáticamente $+\infty$ o $-\infty$: primero compara los grados y después estudia el signo.
 
 ---
 

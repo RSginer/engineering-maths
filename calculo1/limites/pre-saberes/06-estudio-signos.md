@@ -50,10 +50,10 @@ $$
 \frac{+}{+}=+ \qquad \frac{+}{-}=- \qquad \frac{-}{+}=- \qquad \frac{-}{-}=+
 $$
 
-Esto se aplica igual aunque el "0" tenga un signo pegado ($0^+$ o $0^-$):
+La escritura $0^+$ o $0^-$ no representa dos números llamados "cero positivo" y "cero negativo". Resume que el denominador se aproxima a cero manteniéndose positivo o negativo. Como regla de lectura:
 
 $$
-\frac{2}{0^+}=+\infty \qquad \frac{2}{0^-}=-\infty \qquad \frac{-2}{0^+}=-\infty \qquad \frac{-2}{0^-}=+\infty
+\frac{2}{0^+}\to+\infty \qquad \frac{2}{0^-}\to-\infty \qquad \frac{-2}{0^+}\to-\infty \qquad \frac{-2}{0^-}\to+\infty
 $$
 
 **Explicación intuitiva:** dividir un número entre algo cada vez más pequeño (que tiende a 0) da un resultado cada vez más grande. Si el 0 se acerca por el lado positivo, el resultado tiende a $+\infty$ (si el numerador es positivo). Si se acerca por el lado negativo, el resultado tiende a $-\infty$.
@@ -69,8 +69,10 @@ Queremos saber el signo de $f(x)=\dfrac{1}{x-2}$ cerca de $x=2$, por los dos lad
    - Por la izquierda ($x\to2^-$, ej. $x=1.9$): $1.9-2=-0.1$ → negativo → $x-2\to0^-$
    - Por la derecha ($x\to2^+$, ej. $x=2.1$): $2.1-2=0.1$ → positivo → $x-2\to0^+$
 3. Aplicamos la regla de signos:
-   - Izquierda: $\dfrac{1}{0^-}=-\infty$
-   - Derecha: $\dfrac{1}{0^+}=+\infty$
+   - Izquierda: $\dfrac{1}{0^-}\to-\infty$
+   - Derecha: $\dfrac{1}{0^+}\to+\infty$
+
+![Los dos acercamientos laterales a la asíntota x=2](../animaciones/LimitesLaterales.gif)
 
 ---
 
