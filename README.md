@@ -37,6 +37,37 @@ cómo generar gráficas, etc.) documentadas para agentes de IA en
 [AGENTS.md](AGENTS.md) (también válido para Claude Code vía [CLAUDE.md](CLAUDE.md)).
 Si vas a editar o añadir contenido, revisa ese archivo primero.
 
+## Ejecutar los laboratorios
+
+Los laboratorios son cuadernos de Jupyter (`.ipynb`) que permiten modificar
+valores, ejecutar cálculos y generar gráficas. Los siguientes comandos deben
+ejecutarse desde la raíz del repositorio.
+
+La primera vez, crea el entorno virtual e instala las dependencias:
+
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+```
+
+Después, abre el laboratorio de límites con:
+
+```bash
+.venv/bin/jupyter lab calculo1/limites/laboratorio-limites.ipynb
+```
+
+JupyterLab se abrirá en el navegador. Para ejecutar el cuaderno completo,
+selecciona **Run → Run All Cells**. También puedes ejecutar una celda cada vez
+con `Shift + Enter`, lo que resulta útil para cambiar un valor y observar cómo
+varían las tablas o las gráficas.
+
+Para cerrar JupyterLab, vuelve a la terminal, pulsa `Ctrl + C` y confirma la
+detención si se solicita.
+
+> [!TIP]
+> No es necesario activar el entorno virtual: utilizar `.venv/bin/jupyter`
+> garantiza que se ejecute la versión instalada para este repositorio.
+
 ## Regenerar el material visual
 
 Las dependencias de Python están en `requirements.txt`. En macOS, Manim necesita además Cairo, Pango y FFmpeg:
