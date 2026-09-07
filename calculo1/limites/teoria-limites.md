@@ -169,6 +169,29 @@ $$
 
 (el denominador crece mucho más rápido que el numerador, por lo que la fracción tiende a 0)
 
+**Ejemplo adicional, grado del numerador (3) > grado del denominador (2):**
+
+$$
+f(x)=\frac{2x^3-x}{x^2+1}
+$$
+
+Dividimos el numerador y el denominador entre $x^2$, que es la mayor potencia del denominador:
+
+$$
+\frac{2x^3-x}{x^2+1}
+=\frac{2x-\frac{1}{x}}{1+\frac{1}{x^2}}.
+$$
+
+Cuando $|x|$ aumenta, los términos $1/x$ y $1/x^2$ tienden a $0$. Por tanto, la fracción se comporta como $2x$:
+
+$$
+\lim_{x\to+\infty}\frac{2x^3-x}{x^2+1}=+\infty,
+\qquad
+\lim_{x\to-\infty}\frac{2x^3-x}{x^2+1}=-\infty.
+$$
+
+Aquí $n-m=1$ es impar. Por eso $x^{n-m}=x$ cambia de signo entre $+\infty$ y $-\infty$. Decir solo «el límite es infinito» no basta: hay que indicar su signo y el sentido en el que tiende $x$.
+
 ![Gráfica del Ejercicio 4: asíntota horizontal y=2](img/ejercicio4.png)
 
 ![Gráfica del Ejercicio 5: asíntota horizontal y=0](img/ejercicio5.png)
