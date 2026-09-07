@@ -80,20 +80,29 @@ $$
 
 Por ejemplo: $2^3=2\times2\times2=8$
 
-Reglas importantes:
+### Exponente cero
 
-- **Cualquier número no nulo elevado a 0 es 1:** $a^0=1$ si $a\ne0$. La expresión $0^0$ no se trata con esta regla.
-- **Exponente negativo** significa "el inverso":
+Cualquier número no nulo elevado a $0$ es $1$: $a^0=1$ si $a\ne0$. La expresión $0^0$ no se trata con esta regla.
+
+### Exponente negativo
+
+Un exponente negativo indica el inverso. Para $a\ne0$ y $n>0$:
+
 $$
 a^{-n}=\frac{1}{a^n}
 $$
-Ejemplo: $2^{-3}=\dfrac{1}{2^3}=\dfrac{1}{8}$
 
-- **Exponente fraccionario** es una raíz:
+Por ejemplo: $2^{-3}=\dfrac{1}{2^3}=\dfrac{1}{8}$.
+
+### Exponente fraccionario
+
+Un exponente fraccionario representa una raíz, siempre que la expresión esté definida en los números reales:
+
 $$
 a^{m/n}=\sqrt[n]{a^m}
 $$
-Ejemplo: $8^{1/3}=\sqrt[3]{8}=2$
+
+Por ejemplo: $8^{1/3}=\sqrt[3]{8}=2$.
 
 ---
 
