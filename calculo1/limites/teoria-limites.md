@@ -15,6 +15,7 @@ Puntos clave para justificar:
 - **No hace falta que $f(a)$ exista, ni que $f(a)=L$**. El límite describe el comportamiento *alrededor* de $a$, no el valor *en* $a$.
 - Ejemplo típico: $f(x)=\dfrac{x^2-9}{x-3}$ no está definida en $x=3$, pero $\lim_{x\to3}f(x)=6$.
 - El límite bilateral $\lim_{x\to a}f(x)$ **existe si y solo si** los dos límites laterales existen y son iguales:
+
 $$
 \lim_{x\to a^-}f(x)=\lim_{x\to a^+}f(x)=L
 $$
@@ -61,6 +62,7 @@ Técnicas de factorización útiles:
 4. Resultado (sustituir en la expresión simplificada)
 
 **Ejemplo:**
+
 $$
 \lim_{x\to3}\frac{x^2-9}{x-3}=\lim_{x\to3}\frac{(x-3)(x+3)}{x-3}=\lim_{x\to3}(x+3)=6
 $$
@@ -129,6 +131,7 @@ por lo que el signo depende del cociente $a_n/b_m$ y, cuando $x\to-\infty$, tamb
 $$
 \lim_{x\to+\infty}\frac{4x^2-3x+1}{2x^2+5x-7}=\frac{4}{2}=2
 $$
+
 (cociente de los coeficientes de $x^2$)
 
 **Ejemplo (Ejercicio 5), grado numerador (1) < grado denominador (2):**
@@ -136,6 +139,7 @@ $$
 $$
 \lim_{x\to+\infty}\frac{3x+2}{x^2-1}=0
 $$
+
 (el denominador crece mucho más rápido que el numerador, por lo que la fracción tiende a 0)
 
 ![Gráfica del Ejercicio 4: asíntota horizontal y=2](img/ejercicio4.png)

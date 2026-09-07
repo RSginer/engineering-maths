@@ -76,19 +76,14 @@ Como los límites laterales no coinciden, **el límite bilateral no existe**. La
 Numerador y denominador son de grado $2$. Dividimos todos los términos entre $x^2$:
 
 $$
-\lim_{x\to+\infty}
-\frac{4x^2-3x+1}{2x^2+5x-7}
-=
-\lim_{x\to+\infty}
-\frac{4-\frac{3}{x}+\frac{1}{x^2}}
-{2+\frac{5}{x}-\frac{7}{x^2}}.
+\begin{aligned}
+\lim_{x\to+\infty}\frac{4x^2-3x+1}{2x^2+5x-7}
+&=\lim_{x\to+\infty}\frac{4-\frac{3}{x}+\frac{1}{x^2}}{2+\frac{5}{x}-\frac{7}{x^2}} \\
+&=\frac{4-0+0}{2+0-0}=2
+\end{aligned}
 $$
 
-Como $1/x\to0$ y $1/x^2\to0$,
-
-$$
-\frac{4-0+0}{2+0-0}=\frac{4}{2}=2.
-$$
+En el segundo paso hemos usado que $1/x\to0$ y $1/x^2\to0$.
 
 **Resultado:** $2$. La recta $y=2$ es una asíntota horizontal cuando $x\to+\infty$.
 
@@ -103,12 +98,11 @@ $$
 El numerador tiene grado $1$ y el denominador grado $2$. Dividimos entre $x^2$:
 
 $$
+\begin{aligned}
 \lim_{x\to+\infty}\frac{3x+2}{x^2-1}
-=
-\lim_{x\to+\infty}
-\frac{\frac{3}{x}+\frac{2}{x^2}}
-{1-\frac{1}{x^2}}
-=\frac{0+0}{1-0}=0.
+&=\lim_{x\to+\infty}\frac{\frac{3}{x}+\frac{2}{x^2}}{1-\frac{1}{x^2}} \\
+&=\frac{0+0}{1-0}=0
+\end{aligned}
 $$
 
 **Resultado:** $0$. El denominador crece más rápido que el numerador, y $y=0$ es una asíntota horizontal.

@@ -63,9 +63,11 @@ $$
 
 1. Calculamos el interior de la raíz (discriminante): $b^2-4ac=(-5)^2-4(1)(6)=25-24=1$
 2. Aplicamos la fórmula:
+
 $$
 x=\frac{-(-5)\pm\sqrt{1}}{2(1)}=\frac{5\pm1}{2}
 $$
+
 3. Dos soluciones:
    - $x=\dfrac{5+1}{2}=3$
    - $x=\dfrac{5-1}{2}=2$

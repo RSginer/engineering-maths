@@ -36,11 +36,13 @@ Estas técnicas son **imprescindibles** para resolver la indeterminación $0/0$ 
 
 ## 3. [Racionalización](03-racionalizacion.md)
 
-- Multiplicar numerador y denominador por el **conjugado** cuando hay raíces:
+Para racionalizar una diferencia de raíces, se multiplican numerador y denominador por el **conjugado**:
+
 $$
 \frac{1}{\sqrt{x}-\sqrt{a}}\cdot\frac{\sqrt{x}+\sqrt{a}}{\sqrt{x}+\sqrt{a}}=\frac{\sqrt{x}+\sqrt{a}}{x-a}
 $$
-- Se usa para eliminar indeterminaciones $0/0$ cuando aparecen raíces en el numerador o denominador.
+
+Se usa para eliminar indeterminaciones $0/0$ cuando aparecen raíces en el numerador o denominador.
 
 ---
 
