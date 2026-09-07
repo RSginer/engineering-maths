@@ -74,7 +74,28 @@ Como los límites laterales no coinciden, **el límite bilateral no existe**. La
 
 ## Ejercicio 4 — Límite en el infinito
 
-Numerador y denominador son de grado $2$. Dividimos todos los términos entre $x^2$:
+Numerador y denominador son de grado $2$. Para comparar su crecimiento, dividimos **el numerador completo y el denominador completo** entre $x^2$. Esto no cambia el valor de la fracción porque estamos dividiendo sus dos partes por la misma cantidad distinta de cero:
+
+$$
+\frac{4x^2-3x+1}{2x^2+5x-7}
+=
+\frac{\dfrac{4x^2-3x+1}{x^2}}{\dfrac{2x^2+5x-7}{x^2}}.
+$$
+
+Ahora repartimos la división entre los términos de cada polinomio:
+
+$$
+\begin{aligned}
+\frac{4x^2-3x+1}{x^2}
+&=\frac{4x^2}{x^2}-\frac{3x}{x^2}+\frac{1}{x^2}
+=4-\frac{3}{x}+\frac{1}{x^2}, \\
+\frac{2x^2+5x-7}{x^2}
+&=\frac{2x^2}{x^2}+\frac{5x}{x^2}-\frac{7}{x^2}
+=2+\frac{5}{x}-\frac{7}{x^2}.
+\end{aligned}
+$$
+
+Por eso el límite original se transforma en
 
 $$
 \begin{aligned}
@@ -84,7 +105,7 @@ $$
 \end{aligned}
 $$
 
-En el segundo paso hemos usado que $1/x\to0$ y $1/x^2\to0$.
+Cuando $x\to+\infty$, tanto $1/x$ como $1/x^2$ se acercan a $0$. En cambio, los términos $4x^2/x^2=4$ y $2x^2/x^2=2$ permanecen. Por eso, al final, solo queda el cociente de los coeficientes principales: $4/2=2$.
 
 **Resultado:** $2$. La recta $y=2$ es una asíntota horizontal cuando $x\to+\infty$.
 
